@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-04-28](briefings/2026-04-28.md)**
+  - GPT-5.5 released — OpenAI's agentic computing model, 1M context, $5/$30 per M tokens
+  - Anthropic publishes postmortem on 7 weeks of Claude Code quality regressions (three compounding bugs)
+  - Fork subagents now public (CLAUDE_CODE_FORK_SUBAGENT=1) — up to 90% token savings on parallel work
 - **[2026-04-17](briefings/2026-04-17.md)**
   - Claude Opus 4.7 is GA — 3× vision resolution, stronger long-running agent work, same pricing
   - Claude Code 2.1.111 ships `/ultrareview` (parallel multi-agent code review), `xhigh` effort, `/less-permission-prompts`
