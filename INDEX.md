@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-04-29](briefings/2026-04-29.md)**
+  - Microsoft-OpenAI exclusivity dissolved — OpenAI models now on AWS Bedrock alongside Claude
+  - Claude Code 2.1.122: `/resume` accepts PR URLs, Bedrock service tier selection
+  - Datadog's State of AI Engineering report — 69% of orgs use 3+ models, context quality > volume
 - **[2026-04-28](briefings/2026-04-28.md)**
   - GPT-5.5 released — OpenAI's agentic computing model, 1M context, $5/$30 per M tokens
   - Anthropic publishes postmortem on 7 weeks of Claude Code quality regressions (three compounding bugs)
