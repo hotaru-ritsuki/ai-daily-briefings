@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-05](briefings/2026-05-05.md)**
+  - Claude Code 2.1.128 fixes "Prompt is too long" false positive on 1M-context models, subagent cache waste, parallel shell cancellation
+  - Mistral Medium 3.5 — 77.6% SWE-Bench at $1.50/M input, worth testing on mechanical migration tasks
+  - Anthropic launches Claude Security (vulnerability scanning) for Enterprise; Fed excludes gen AI from model risk management
 - **[2026-04-29](briefings/2026-04-29.md)**
   - Microsoft-OpenAI exclusivity dissolved — OpenAI models now on AWS Bedrock alongside Claude
   - Claude Code 2.1.122: `/resume` accepts PR URLs, Bedrock service tier selection
