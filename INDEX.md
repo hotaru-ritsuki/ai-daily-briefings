@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-06](briefings/2026-05-06.md)**
+  - Anthropic launches 10 finance agent templates + M365 add-ins + Moody's integration; Jamie Dimon endorses Claude on stage
+  - Claude Code 2.1.129 fixes broken 1-hour prompt cache TTL, adds skillOverrides and skill budget settings
+  - Apple announces Siri will integrate Claude and Gemini as selectable backends in iOS 27
 - **[2026-05-05](briefings/2026-05-05.md)**
   - Claude Code 2.1.128 fixes "Prompt is too long" false positive on 1M-context models, subagent cache waste, parallel shell cancellation
   - Mistral Medium 3.5 — 77.6% SWE-Bench at $1.50/M input, worth testing on mechanical migration tasks
