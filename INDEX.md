@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-07](briefings/2026-05-07.md)**
+  - Anthropic doubles Claude Code rate limits via SpaceX Colossus compute deal (300+ MW, 220K+ GPUs)
+  - Claude Code 2.1.132 fixes JetBrains scroll-wheel, MCP memory leak (10GB+), Bedrock/Vertex prompt cache errors
+  - Code w/ Claude 2026 conference showcases Auto Mode, CI Auto-Fix, Code Review, Remote Agents; Mercado Libre targets 90% autonomous coding
 - **[2026-05-06](briefings/2026-05-06.md)**
   - Anthropic launches 10 finance agent templates + M365 add-ins + Moody's integration; Jamie Dimon endorses Claude on stage
   - Claude Code 2.1.129 fixes broken 1-hour prompt cache TTL, adds skillOverrides and skill budget settings
