@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-08](briefings/2026-05-08.md)**
+  - Anthropic publishes "Effective Context Engineering for AI Agents" — the definitive practitioner guide for Claude Code power users
+  - Claude Code 2.1.133 adds worktree.baseRef setting and passes effort level to hooks; Codex 0.129.0 stable ships Rust rewrite
+  - AWS MCP Server hits GA (any AWS API as one tool); GitHub MCP adds secret scanning GA and dependency scanning preview
 - **[2026-05-07](briefings/2026-05-07.md)**
   - Anthropic doubles Claude Code rate limits via SpaceX Colossus compute deal (300+ MW, 220K+ GPUs)
   - Claude Code 2.1.132 fixes JetBrains scroll-wheel, MCP memory leak (10GB+), Bedrock/Vertex prompt cache errors
