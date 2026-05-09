@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-09](briefings/2026-05-09.md)**
+  - Anthropic ships "Dreaming" for Managed Agents — agents review past sessions and self-improve; Harvey reports 6x task completion improvement
+  - Claude Code 2.1.136 fixes MCP servers disappearing after /clear, MCP OAuth token loss, adds autoMode.hard_deny
+  - Cloudflare publishes AI code review architecture — 131K reviews, 7 specialized agents per MR, $1.19/review, 0.6% override rate
 - **[2026-05-08](briefings/2026-05-08.md)**
   - Anthropic publishes "Effective Context Engineering for AI Agents" — the definitive practitioner guide for Claude Code power users
   - Claude Code 2.1.133 adds worktree.baseRef setting and passes effort level to hooks; Codex 0.129.0 stable ships Rust rewrite
