@@ -7,7 +7,11 @@ Reverse-chronological index of daily AI engineering briefings.
 - **[2026-05-11](briefings/2026-05-11.md)**
   - GitHub open-sources Spec-Kit for spec-driven development — 93K stars, works with Claude Code, four gated phases before code is written
   - GitHub publishes token-cost tracking pattern for agentic CI workflows; OpenAI ships GPT-5.5-Cyber for vetted security professionals
-  - Redpanda publishes ui-harness (skills+hooks for frontend teams); Optimizely, ServiceNow, AWS Transform MCP servers ship
+  - Redpanda publishes ui-harness (skills+hooks for frontend teams); Optimizely, AWS Transform MCP servers ship
+- **[2026-05-10](briefings/2026-05-10.md)**
+  - Snyk embeds Claude into its security platform — automated vulnerability discovery + fixes across code and AI-generated artifacts
+  - Coder Agents beta launches — fully self-hosted, model-agnostic AI coding agents for enterprise; free through September
+  - Simon Willison highlights "The Unreasonable Effectiveness of HTML" — Claude Code team member advocates HTML over markdown for richer agent output
 - **[2026-05-09](briefings/2026-05-09.md)**
   - Anthropic ships "Dreaming" for Managed Agents — agents review past sessions and self-improve; Harvey reports 6x task completion improvement
   - Claude Code 2.1.136 fixes MCP servers disappearing after /clear, MCP OAuth token loss, adds autoMode.hard_deny
