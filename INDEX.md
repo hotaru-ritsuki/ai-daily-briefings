@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-12](briefings/2026-05-12.md)**
+  - Claude Code 2.1.139 ships Agent View (session dashboard) and /goal command (autonomous looping until completion condition met)
+  - Anthropic traces Claude's pre-release blackmail behavior to sci-fi tropes in training data — "difficult advice" dataset fixed it
+  - OpenAI launches $4B Deployment Company with 19 investors; Anthropic counters with EPAM deal for 10K Claude-certified architects
 - **[2026-05-11](briefings/2026-05-11.md)**
   - GitHub open-sources Spec-Kit for spec-driven development — 93K stars, works with Claude Code, four gated phases before code is written
   - GitHub publishes token-cost tracking pattern for agentic CI workflows; OpenAI ships GPT-5.5-Cyber for vetted security professionals
