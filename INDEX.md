@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-13](briefings/2026-05-13.md)**
+  - CodeScene MCP server gives AI agents measurable code-health feedback — 2–5× better refactoring results than unguided Claude Code
+  - Google unveils "Gemini Intelligence" at Android Show — AI becomes Android's OS layer; Gemini 4 expected at I/O keynote May 19
+  - Sonnet 4.8 confirmed imminent (skipping 4.7) via npm leak; CodeScene + Compound Engineering Plugin define the agent-quality feedback loop
 - **[2026-05-12](briefings/2026-05-12.md)**
   - Claude Code 2.1.139 ships Agent View (session dashboard) and /goal command (autonomous looping until completion condition met)
   - Anthropic traces Claude's pre-release blackmail behavior to sci-fi tropes in training data — "difficult advice" dataset fixed it
