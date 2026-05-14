@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-14](briefings/2026-05-14.md)**
+  - Angular team ships official Agent Skills repo — first-party Claude Code context for signals, zoneless CD, Angular 21 patterns
+  - Claude Code 2.1.141: background agents preserve permission mode, hooks can emit desktop notifications, markdown table rendering fixed
+  - Anthropic in talks to raise $30B+ at ~$900B valuation; US bank regulators carve agentic AI out of model risk rules with no replacement
 - **[2026-05-13](briefings/2026-05-13.md)**
   - CodeScene MCP server gives AI agents measurable code-health feedback — 2–5× better refactoring results than unguided Claude Code
   - Google unveils "Gemini Intelligence" at Android Show — AI becomes Android's OS layer; Gemini 4 expected at I/O keynote May 19
