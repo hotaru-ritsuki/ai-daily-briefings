@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-15](briefings/2026-05-15.md)**
+  - xAI launches Grok Build — coding agent CLI that reads Claude Code conventions (AGENTS.md, hooks, skills, MCP) out of the box
+  - Claude Code 2.1.142: Fast mode switches to Opus 4.7, `claude agents` gets dispatch flags (--model, --effort, --mcp-config)
+  - ECB warns eurozone banks to prepare for Mythos-class cyberattacks; Mistral building European alternative; Fiserv launches agentOS
 - **[2026-05-14](briefings/2026-05-14.md)**
   - Angular team ships official Agent Skills repo — first-party Claude Code context for signals, zoneless CD, Angular 21 patterns
   - Claude Code 2.1.141: background agents preserve permission mode, hooks can emit desktop notifications, markdown table rendering fixed
