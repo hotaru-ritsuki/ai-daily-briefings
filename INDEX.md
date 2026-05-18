@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-16](briefings/2026-05-16.md)**
+  - Claude Code weekly limits up 50% through July 13 — stacks with 2x 5-hour increase from SpaceXAI deal; already live for Pro/Max/Team/Enterprise
+  - Claude Code 2.1.143 makes `/bg` full-fidelity — background agents preserve MCP servers, settings, model, effort, fallback model across respawn
+  - PwC + Anthropic expanded partnership: 30K Claude-certified staff, Office of the CFO built on Claude, targeting $2T enterprise tech debt
 - **[2026-05-15](briefings/2026-05-15.md)**
   - xAI launches Grok Build — coding agent CLI that reads Claude Code conventions (AGENTS.md, hooks, skills, MCP) out of the box
   - Claude Code 2.1.142: Fast mode switches to Opus 4.7, `claude agents` gets dispatch flags (--model, --effort, --mcp-config)
