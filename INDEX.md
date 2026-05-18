@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-17](briefings/2026-05-17.md)**
+  - Agent SDK credit split math: community estimates 12–175x effective cost increase for `claude -p` workloads after June 15; mitigation strategies emerging
+  - Martin Fowler publishes "Context Engineering for Coding Agents" — performance degrades past ~1M tokens regardless of nominal context window
+  - LangChain launches Managed Deep Agents private beta; semantic code search MCP servers proliferating (codesearch, Claude Context, Elastic)
 - **[2026-05-16](briefings/2026-05-16.md)**
   - Claude Code weekly limits up 50% through July 13 — stacks with 2x 5-hour increase from SpaceXAI deal; already live for Pro/Max/Team/Enterprise
   - Claude Code 2.1.143 makes `/bg` full-fidelity — background agents preserve MCP servers, settings, model, effort, fallback model across respawn
