@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-18](briefings/2026-05-18.md)**
+  - OpenAI Codex lands on ChatGPT mobile (iOS/Android, all plans) with Remote SSH GA — supervise coding agents from your phone
+  - Google I/O keynote + Code w/ Claude London both tomorrow (May 19); Codegraph MCP server gives agents pre-indexed code knowledge graphs
+  - CLI-Anything (36K stars) makes GUI software agent-native; tech-leads-club ships security-hardened skill registry
 - **[2026-05-17](briefings/2026-05-17.md)**
   - Agent SDK credit split math: community estimates 12–175x effective cost increase for `claude -p` workloads after June 15; mitigation strategies emerging
   - Martin Fowler publishes "Context Engineering for Coding Agents" — performance degrades past ~1M tokens regardless of nominal context window
