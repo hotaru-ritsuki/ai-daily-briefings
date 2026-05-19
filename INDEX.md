@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-19](briefings/2026-05-19.md)**
+  - OpenAI Codex CLI 0.131.0 stable ships: richer TUI with token usage metrics, unified mention picker, `codex doctor` diagnostics, daemon-managed remote workflows
+  - Claude Code 2.1.144: `/resume` for background sessions, session-scoped `/model`, critical fix for MCP paginated tools silently dropping tools
+  - Google I/O 2026 keynote today — Gemini 4 (rumored 10M-token context), Firebase as agent-native platform, Android XR glasses, Aluminium OS expected
 - **[2026-05-18](briefings/2026-05-18.md)**
   - OpenAI Codex lands on ChatGPT mobile (iOS/Android, all plans) with Remote SSH GA — supervise coding agents from your phone
   - Google I/O keynote + Code w/ Claude London both tomorrow (May 19); Codegraph MCP server gives agents pre-indexed code knowledge graphs
