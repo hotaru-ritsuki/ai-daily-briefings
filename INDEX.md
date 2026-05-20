@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-20](briefings/2026-05-20.md)**
+  - Google I/O 2026 ships Gemini 3.5 Flash, Antigravity 2.0 CLI with agent subagents, and WebMCP — a proposed web standard for browser-native MCP tools (Chrome 149 origin trial)
+  - Claude Code 2.1.145: security fix for permission-prompt bypass, `claude agents --json` for scripting, OTEL agent tracing; Codex 0.132.0: goal-loop fix stops token burn, Python SDK auth, structured output on resume
+  - push-based Angular Toolkit MCP server for semantic Angular project analysis; Routines docs live for unattended scheduled/event-driven agent runs
 - **[2026-05-19](briefings/2026-05-19.md)**
   - OpenAI Codex CLI 0.131.0 stable ships: richer TUI with token usage metrics, unified mention picker, `codex doctor` diagnostics, daemon-managed remote workflows
   - Claude Code 2.1.144: `/resume` for background sessions, session-scoped `/model`, critical fix for MCP paginated tools silently dropping tools
