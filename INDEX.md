@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-21](briefings/2026-05-21.md)**
+  - Andrej Karpathy joins Anthropic's pre-training team — biggest AI talent move of the year
+  - Claude Code 2.1.146: `/code-review` command (replaces `/simplify`), permission-bypass security fix, MCP pagination fix
+  - Google I/O 2026 ships Gemini 3.5 Flash ($1.50/M input) + Antigravity 2.0 standalone agent IDE with SDK and CLI
 - **[2026-05-20](briefings/2026-05-20.md)**
   - Google I/O 2026 ships Gemini 3.5 Flash, Antigravity 2.0 CLI with agent subagents, and WebMCP — a proposed web standard for browser-native MCP tools (Chrome 149 origin trial)
   - Claude Code 2.1.145: security fix for permission-prompt bypass, `claude agents --json` for scripting, OTEL agent tracing; Codex 0.132.0: goal-loop fix stops token burn, Python SDK auth, structured output on resume
