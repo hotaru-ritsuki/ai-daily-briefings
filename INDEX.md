@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-22](briefings/2026-05-22.md)**
+  - Anthropic MCP Tunnels + self-hosted sandboxes for Managed Agents — agents reach internal systems over a single outbound TLS connection; tool execution can stay in your AWS/Cloudflare/Modal/Vercel perimeter
+  - OpenAI Codex 0.133.0: Goals enabled by default with dedicated storage and per-turn progress tracking; `codex remote-control` as a foreground command
+  - Angular v19 hit EOL May 19 and every official Angular AI tool (MCP server, modernize, Web Codegen Scorer) targets v20.2+ — Angular 18 migration loses the tooling moat
 - **[2026-05-21](briefings/2026-05-21.md)**
   - Andrej Karpathy joins Anthropic's pre-training team — biggest AI talent move of the year
   - Claude Code 2.1.146: `/code-review` command (replaces `/simplify`), permission-bypass security fix, MCP pagination fix
