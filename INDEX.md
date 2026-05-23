@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-23](briefings/2026-05-23.md)**
+  - Claude Code 2.1.149 ships PowerShell `cd` permission-bypass fix, worktree write-allowlist fix, and a per-category `/usage` breakdown (skills / subagents / plugins / per-MCP-server)
+  - `anthropics/financial-services` reference repo at 26.5K stars — Anthropic's official vertical agents/skills/connectors for IB, equity research, PE, wealth management
+  - MCP 2026-07-28 release candidate: stateless protocol core (no `initialize` handshake), Extensions framework, MCP Apps (sandboxed-iframe HTML UIs), Tasks extension, OAuth/OIDC hardening
 - **[2026-05-22](briefings/2026-05-22.md)**
   - Anthropic MCP Tunnels + self-hosted sandboxes for Managed Agents — agents reach internal systems over a single outbound TLS connection; tool execution can stay in your AWS/Cloudflare/Modal/Vercel perimeter
   - OpenAI Codex 0.133.0: Goals enabled by default with dedicated storage and per-turn progress tracking; `codex remote-control` as a foreground command
