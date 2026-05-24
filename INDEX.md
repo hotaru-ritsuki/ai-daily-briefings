@@ -5,9 +5,13 @@ Reverse-chronological index of daily AI engineering briefings.
 ## 2026
 
 - **[2026-05-24](briefings/2026-05-24.md)**
-  - Claude Code v2.1.149 adds a per-category `/usage` breakdown (skills/subagents/plugins/MCP servers) — first built-in cost-attribution view ahead of the June 15 credit changes, plus a batch of PowerShell permission-bypass security fixes
-  - Google confirms Gemini CLI + Code Assist stop serving individual/Pro/Ultra tiers on June 18, 2026 (everyone pushed to closed-source Antigravity); community backlash over pulling a tool that took 6,000 open-source contributions
-  - Colorado AI Act takes effect June 30, 2026, covering high-risk AI that materially affects financial services; frontier otherwise quiet — no new flagship in 72h
+  - Google confirms Gemini CLI + Code Assist stop serving individual/Pro/Ultra tiers June 18, 2026 — everyone pushed to closed-source Antigravity, with backlash over pulling a tool that took 6,000 community contributions
+  - Colorado AI Act takes effect June 30, 2026, covering high-risk AI that materially affects financial services — first concrete US state deadline that could touch an LLM decisioning feature
+  - Code-knowledge-graph MCPs mature past semantic search: sdsrss/code-graph-mcp adds call-graph traversal, HTTP route tracing, and impact analysis for "what breaks if I change this endpoint"; frontier otherwise quiet
+- **[2026-05-23](briefings/2026-05-23.md)**
+  - Claude Code 2.1.149 ships PowerShell `cd` permission-bypass fix, worktree write-allowlist fix, and a per-category `/usage` breakdown (skills / subagents / plugins / per-MCP-server)
+  - `anthropics/financial-services` reference repo at 26.5K stars — Anthropic's official vertical agents/skills/connectors for IB, equity research, PE, wealth management
+  - MCP 2026-07-28 release candidate: stateless protocol core (no `initialize` handshake), Extensions framework, MCP Apps (sandboxed-iframe HTML UIs), Tasks extension, OAuth/OIDC hardening
 - **[2026-05-22](briefings/2026-05-22.md)**
   - Anthropic MCP Tunnels + self-hosted sandboxes for Managed Agents — agents reach internal systems over a single outbound TLS connection; tool execution can stay in your AWS/Cloudflare/Modal/Vercel perimeter
   - OpenAI Codex 0.133.0: Goals enabled by default with dedicated storage and per-turn progress tracking; `codex remote-control` as a foreground command
