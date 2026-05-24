@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-24](briefings/2026-05-24.md)**
+  - Google confirms Gemini CLI + Code Assist stop serving individual/Pro/Ultra tiers June 18, 2026 — everyone pushed to closed-source Antigravity, with backlash over pulling a tool that took 6,000 community contributions
+  - Colorado AI Act takes effect June 30, 2026, covering high-risk AI that materially affects financial services — first concrete US state deadline that could touch an LLM decisioning feature
+  - Code-knowledge-graph MCPs mature past semantic search: sdsrss/code-graph-mcp adds call-graph traversal, HTTP route tracing, and impact analysis for "what breaks if I change this endpoint"; frontier otherwise quiet
 - **[2026-05-23](briefings/2026-05-23.md)**
   - Claude Code 2.1.149 ships PowerShell `cd` permission-bypass fix, worktree write-allowlist fix, and a per-category `/usage` breakdown (skills / subagents / plugins / per-MCP-server)
   - `anthropics/financial-services` reference repo at 26.5K stars — Anthropic's official vertical agents/skills/connectors for IB, equity research, PE, wealth management
