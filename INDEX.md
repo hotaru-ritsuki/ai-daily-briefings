@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-24](briefings/2026-05-24.md)**
+  - Claude Code v2.1.149 adds a per-category `/usage` breakdown (skills/subagents/plugins/MCP servers) — first built-in cost-attribution view ahead of the June 15 credit changes, plus a batch of PowerShell permission-bypass security fixes
+  - Google confirms Gemini CLI + Code Assist stop serving individual/Pro/Ultra tiers on June 18, 2026 (everyone pushed to closed-source Antigravity); community backlash over pulling a tool that took 6,000 open-source contributions
+  - Colorado AI Act takes effect June 30, 2026, covering high-risk AI that materially affects financial services; frontier otherwise quiet — no new flagship in 72h
 - **[2026-05-22](briefings/2026-05-22.md)**
   - Anthropic MCP Tunnels + self-hosted sandboxes for Managed Agents — agents reach internal systems over a single outbound TLS connection; tool execution can stay in your AWS/Cloudflare/Modal/Vercel perimeter
   - OpenAI Codex 0.133.0: Goals enabled by default with dedicated storage and per-turn progress tracking; `codex remote-control` as a foreground command
