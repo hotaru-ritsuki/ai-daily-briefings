@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-25](briefings/2026-05-25.md)**
+  - Trigger-reliability evaluation for Claude Code configs gets real tooling (cc-plugin-eval, wshobson plugin-eval, Anthropic skill-creator trigger tuning) — skills often score ~50% because descriptions summarize behavior instead of listing trigger conditions
+  - Armin Ronacher publishes "Building Pi With Pi" (May 24) on maintaining open source in the AI era; Cloudflare reports 131K AI code-review runs in 30 days (median 3m39s)
+  - Frontier quiet for a second straight day and both daily tool changelogs flat (Claude Code 2.1.150, Codex 0.133.0) — a window to harden config rather than chase releases
 - **[2026-05-24](briefings/2026-05-24.md)**
   - Google confirms Gemini CLI + Code Assist stop serving individual/Pro/Ultra tiers June 18, 2026 — everyone pushed to closed-source Antigravity, with backlash over pulling a tool that took 6,000 community contributions
   - Colorado AI Act takes effect June 30, 2026, covering high-risk AI that materially affects financial services — first concrete US state deadline that could touch an LLM decisioning feature
