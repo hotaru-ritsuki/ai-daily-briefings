@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-26](briefings/2026-05-26.md)**
+  - colbymchenry/codegraph hits 25K+ stars: pre-indexed AST knowledge graph for Claude Code delivers 57% fewer tokens and 70% fewer tool calls on real codebases — most actionable install for the migration today
+  - SpaceX S-1 discloses the Anthropic compute deal's actual size: $1.25B/month / $45B over three years — largest publicly disclosed compute contract for any frontier AI lab, explaining the API capacity expansion trajectory
+  - Spotify open-sources ads-agentic-tools (Claude Code plugin wrapping 30-resource-type API via full OpenAPI spec, not individual tools); Martin Fowler's harness engineering guide and cwc-long-running-agents (PROGRESS.md + fresh-context evaluator) round out a strong batch of long-running-agent patterns
 - **[2026-05-25](briefings/2026-05-25.md)**
   - Trigger-reliability evaluation for Claude Code configs gets real tooling (cc-plugin-eval, wshobson plugin-eval, Anthropic skill-creator trigger tuning) — skills often score ~50% because descriptions summarize behavior instead of listing trigger conditions
   - Armin Ronacher publishes "Building Pi With Pi" (May 24) on maintaining open source in the AI era; Cloudflare reports 131K AI code-review runs in 30 days (median 3m39s)
