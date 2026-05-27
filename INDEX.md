@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-27](briefings/2026-05-27.md)**
+  - Claude Code v2.1.152 ships today: `/code-review --fix` (and `/simplify` alias), `disallowed-tools` in skill frontmatter, `/reload-skills`, `SessionStart` session title, `MessageDisplay` hook, auto mode on by default — largest changelog since Routines
+  - Claude Mythos / Project Glasswing reaches 10,000+ vulnerabilities found: Anthropic scanned 1,000+ open-source projects, 23,019 issues identified (6,202 high/critical), working exploits built in 83%+ of cases — restricted preview only
+  - HeroDevs "The Slog is Real" post-mortem on AI-assisted AngularJS migrations: agents spiral on whole-project scope, 30–40% effort reduction requires deliberate architecture not agentic autopilot, enterprise migrations still run 18–24 months
 - **[2026-05-26](briefings/2026-05-26.md)**
   - colbymchenry/codegraph hits 25K+ stars: pre-indexed AST knowledge graph for Claude Code delivers 57% fewer tokens and 70% fewer tool calls on real codebases — most actionable install for the migration today
   - SpaceX S-1 discloses the Anthropic compute deal's actual size: $1.25B/month / $45B over three years — largest publicly disclosed compute contract for any frontier AI lab, explaining the API capacity expansion trajectory
