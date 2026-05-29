@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-28](briefings/2026-05-28.md)**
+  - Anthropic ships free Security Guidance plugin for Claude Code (`/plugins`, ~157K installs by May 27): `PreToolUse` regex hook catches ~25 vulnerability classes (SQLi, command injection, XSS, hardcoded secrets, `eval`, `dangerouslySetInnerHTML`) before they hit disk, no LLM call — 30–40% drop in security PR comments
+  - Claude Code v2.1.153 (May 28): heavy bug-fix release; subagent frontmatter `mcpServers` was bypassing enterprise managed-MCP policies, custom API gateways were receiving user OAuth credentials, stateful MCP servers reconnect-looping on `tools/list` (v2.1.147 regression), cache token undercounting in `/usage`
+  - `anthropics/cwc-workshops` ships three substantive modules (`rightmodel/`, `agent-decomposition/`, `how-we-claude-code/`) — `agent-decomposition` is the cleanest public reference for breaking a monolithic prompt into skills + code-exec + `callable_agents` with per-step evals
 - **[2026-05-27](briefings/2026-05-27.md)**
   - Claude Code v2.1.152 ships today: `/code-review --fix` (and `/simplify` alias), `disallowed-tools` in skill frontmatter, `/reload-skills`, `SessionStart` session title, `MessageDisplay` hook, auto mode on by default — largest changelog since Routines
   - Claude Mythos / Project Glasswing reaches 10,000+ vulnerabilities found: Anthropic scanned 1,000+ open-source projects, 23,019 issues identified (6,202 high/critical), working exploits built in 83%+ of cases — restricted preview only
