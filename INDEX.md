@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-29](briefings/2026-05-29.md)**
+  - Claude Opus 4.8 + Dynamic Workflows shipped May 28 — Opus 4.8 is "a modest but tangible improvement" (~4× less likely to silently pass flawed code, 69.2% SWE-bench Pro), and Dynamic Workflows let Claude write a JS orchestration script that fans up to 1,000 subagents in parallel; upgrade to Claude Code v2.1.156 (2.1.154 has an Opus 4.8 thinking-block bug)
+  - Jarred Sumner ported Bun from Zig to Rust in 11 days using dynamic workflows — 750k lines, 99.8% test-suite passing, two reviewer agents per file, fix-loop until build + tests green; cleanest public proof-point for AI-assisted full-codebase migration
+  - Anthropic raised $65B Series H at $965B post-money valuation (run-rate revenue $47B), tripling from February's $380B — confirms Managed Agents / MCP Tunnels / self-hosted sandboxes are funded multi-year for regulated-perimeter use
 - **[2026-05-27](briefings/2026-05-27.md)**
   - Claude Code v2.1.152 ships today: `/code-review --fix` (and `/simplify` alias), `disallowed-tools` in skill frontmatter, `/reload-skills`, `SessionStart` session title, `MessageDisplay` hook, auto mode on by default — largest changelog since Routines
   - Claude Mythos / Project Glasswing reaches 10,000+ vulnerabilities found: Anthropic scanned 1,000+ open-source projects, 23,019 issues identified (6,202 high/critical), working exploits built in 83%+ of cases — restricted preview only
