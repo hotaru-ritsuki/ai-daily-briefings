@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-30](briefings/2026-05-30.md)**
+  - Claude Code v2.1.158 (today) unblocks Auto Mode on Bedrock, Vertex, and Foundry for Opus 4.7/4.8 via `CLAUDE_CODE_ENABLE_AUTO_MODE=1` — directly actionable if your Claude Code is wired through AWS Bedrock for the regulatory perimeter
+  - Claude Code v2.1.157 (May 29) auto-loads plugins from `.claude/skills/` without a marketplace and ships `claude plugin init <name>` to scaffold one in place — team-owned `.claude/` is now first-class
+  - GitHub Security Lab open-sourced seclab-taskflow-agent + seclab-taskflows — YAML-declarative multi-agent workflows on the OpenAI Agents SDK that found ~30 real OSS vulns since August; the YAML-first counterpoint to Anthropic's JS-generated dynamic workflows
 - **[2026-05-29](briefings/2026-05-29.md)**
   - Claude Opus 4.8 + Dynamic Workflows shipped May 28 — Opus 4.8 is "a modest but tangible improvement" (~4× less likely to silently pass flawed code, 69.2% SWE-bench Pro), and Dynamic Workflows let Claude write a JS orchestration script that fans up to 1,000 subagents in parallel; upgrade to Claude Code v2.1.156 (2.1.154 has an Opus 4.8 thinking-block bug)
   - Jarred Sumner ported Bun from Zig to Rust in 11 days using dynamic workflows — 750k lines, 99.8% test-suite passing, two reviewer agents per file, fix-loop until build + tests green; cleanest public proof-point for AI-assisted full-codebase migration
