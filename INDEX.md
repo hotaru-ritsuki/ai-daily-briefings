@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-05-31](briefings/2026-05-31.md)**
+  - Lutz Leonhardt's "I Used AI Agents to Migrate 44 Angular Components. The Review Changed My Mind." (April 13, not previously surfaced) — first-hand SAP Spartacus Reactive→Signal Forms migration documenting a two-file harness (`goal.md` protocol + `SignalMigration.md` substrate); 34/44 looked successful on first run, review showed "successful" needs operational definition
+  - Quiet release day — no new Claude Code past v2.1.158 (May 30) and no new Codex past 0.135.0 stable / 0.136.0-alpha.1 (May 29); recommended consolidation move is mirroring the two-file harness pattern into `.claude/skills/<name>/` so it auto-loads (v2.1.157) for the whole team on `git pull`
+  - Simon Willison published "I Am Retiring from Tech to Live Offline" (May 30) — cultural-signal piece after three 12+ hour days in Claude Code; not literal retirement but a register check for AI-dev personal branding from the most prolific AI-tools commentator (direct fetch 403'd; framing approximate)
 - **[2026-05-30](briefings/2026-05-30.md)**
   - Claude Code v2.1.158 (today) unblocks Auto Mode on Bedrock, Vertex, and Foundry for Opus 4.7/4.8 via `CLAUDE_CODE_ENABLE_AUTO_MODE=1` — directly actionable if your Claude Code is wired through AWS Bedrock for the regulatory perimeter
   - Claude Code v2.1.157 (May 29) auto-loads plugins from `.claude/skills/` without a marketplace and ships `claude plugin init <name>` to scaffold one in place — team-owned `.claude/` is now first-class
