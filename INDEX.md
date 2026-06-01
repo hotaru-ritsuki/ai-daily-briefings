@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-06-01](briefings/2026-06-01.md)**
+  - Anthropic's June 15 billing change splits programmatic Claude usage (Agent SDK, `claude -p`, Claude Code GitHub Actions, third-party agents like Zed/Conductor) into a separate per-user credit pool at full API rates — $20 Pro / $100 Max 5× / $200 Max 20×, no rollover; interactive Claude Code untouched, 14 days to claim the credit via email
+  - Angular 22 ships this week (week of June 1, rc.1 dropped May 20): Signal Forms stable, Vitest default test runner, selectorless components, OnPush as default change detection, native `debounced()` signal, stable MCP support in Angular CLI with `ai_tutor` + `onpush_zoneless_migration` analyzers
+  - Tools quiet (Claude Code v2.1.159 infra-only May 31; Codex rust-v0.136.0-alpha.2 empty body May 31, fourth in a row) — Cognition's May 27 $1B at $26B post-money ($492M ARR, 89% of own code AI-written) is the market signal, positioning agent-first IDE-less architecture against Anthropic ($965B) and Cursor ($50B-talks)
 - **[2026-05-31](briefings/2026-05-31.md)**
   - Lutz Leonhardt's "I Used AI Agents to Migrate 44 Angular Components. The Review Changed My Mind." (April 13, not previously surfaced) — first-hand SAP Spartacus Reactive→Signal Forms migration documenting a two-file harness (`goal.md` protocol + `SignalMigration.md` substrate); 34/44 looked successful on first run, review showed "successful" needs operational definition
   - Quiet release day — no new Claude Code past v2.1.158 (May 30) and no new Codex past 0.135.0 stable / 0.136.0-alpha.1 (May 29); recommended consolidation move is mirroring the two-file harness pattern into `.claude/skills/<name>/` so it auto-loads (v2.1.157) for the whole team on `git pull`
