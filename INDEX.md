@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-06-02](briefings/2026-06-02.md)**
+  - Claude Code v2.1.160 (today) renames the dynamic-workflow trigger keyword from `workflow` to `ultracode` — prose mentions of "workflow" no longer silently fire orchestration mode; trigger is highlighted violet in the prompt input; also adds permission prompts before writing shell startup files (`.zshenv`, `.zlogin`) and code-execution-granting build configs (`.npmrc`, `.yarnrc`, `bunfig.toml`, `.bazelrc`, `.pre-commit-config.yaml`, `.devcontainer/`), and lets a `grep` satisfy the read-before-edit check
+  - Anthropic filed a confidential S-1 with the SEC on June 1 — targeted listing window as early as October 2026 at a likely >$1T valuation (private mark $965B post-Series H); shifts vendor-risk modelling for multi-year regulated deployments and signals tighter Anthropic messaging over the next 90 days
+  - OpenAI Codex CLI 0.136.0 stable (June 1) ships `/archive` to lock completed sessions from resume/fork (lighter ceremony than `claude rm`), `CODEX_API_KEY` for remote-exec setup, Windows sandbox alpha, OSC 8 clickable links in TUI markdown tables, and a standalone image-gen extension
 - **[2026-06-01](briefings/2026-06-01.md)**
   - Anthropic's June 15 billing change splits programmatic Claude usage (Agent SDK, `claude -p`, Claude Code GitHub Actions, third-party agents like Zed/Conductor) into a separate per-user credit pool at full API rates — $20 Pro / $100 Max 5× / $200 Max 20×, no rollover; interactive Claude Code untouched, 14 days to claim the credit via email
   - Angular 22 ships this week (week of June 1, rc.1 dropped May 20): Signal Forms stable, Vitest default test runner, selectorless components, OnPush as default change detection, native `debounced()` signal, stable MCP support in Angular CLI with `ai_tutor` + `onpush_zoneless_migration` analyzers
