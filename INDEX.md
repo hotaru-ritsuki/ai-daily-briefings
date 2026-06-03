@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-06-03](briefings/2026-06-03.md)**
+  - Claude Security in public beta for Enterprise + Project Glasswing expanded to ~150 partners across 15+ countries — Opus 4.7-powered scan/validate/patch with Slack/Jira webhooks + CSV/Markdown export, CrowdStrike/Microsoft Security/Palo Alto/SentinelOne/Wiz as launch integrations; first time critical-infrastructure operators (power/water/healthcare/comms) explicitly join the Glasswing partner list
+  - Claude Code v2.1.161 (June 2 late-day) ships `OTEL_RESOURCE_ATTRIBUTES`-as-metric-labels (slice usage by team/repo/branch without log parsing), redacts credentials and stops expanding `${VAR}` in `claude mcp list/get/add` (silent secret-leak class fix — sweep transcripts), and stops failed Bash calls cancelling sibling parallel tool calls; also fixes `forceLoginOrgUUID/Method` blocking third-party providers
+  - Codex `rust-v0.137.0-alpha.4` (June 3 01:26 UTC) ships with an empty release body for the fifth consecutive pre-release; stable remains 0.136.0 from June 1 — comms pattern unambiguous, treat alphas as untrusted
 - **[2026-06-02](briefings/2026-06-02.md)**
   - Claude Code v2.1.160 (today) renames the dynamic-workflow trigger keyword from `workflow` to `ultracode` — prose mentions of "workflow" no longer silently fire orchestration mode; trigger is highlighted violet in the prompt input; also adds permission prompts before writing shell startup files (`.zshenv`, `.zlogin`) and code-execution-granting build configs (`.npmrc`, `.yarnrc`, `bunfig.toml`, `.bazelrc`, `.pre-commit-config.yaml`, `.devcontainer/`), and lets a `grep` satisfy the read-before-edit check
   - Anthropic filed a confidential S-1 with the SEC on June 1 — targeted listing window as early as October 2026 at a likely >$1T valuation (private mark $965B post-Series H); shifts vendor-risk modelling for multi-year regulated deployments and signals tighter Anthropic messaging over the next 90 days
