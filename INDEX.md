@@ -4,6 +4,10 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-06-04](briefings/2026-06-04.md)**
+  - Claude Code v2.1.162 (June 3) ships a broad fix release: `WebFetch` permission rules now beat the preapproved-host auto-allow (explicit deny finally bites), `claude agents --json` exposes a `waitingFor` field for script-readable session-blocked reasons, `--tools Grep/Glob` allowlist regression fixed on native builds, sub-1s MCP `timeout` values no longer floor to a 1s watchdog that aborted every call, plus Windsurf renamed to Devin Desktop across `/ide` and `/terminal-setup`
+  - OpenAI Codex `rust-v0.137.0` stable (June 4 01:17 UTC) ends the five-day empty-alpha streak with Multi-agent v2 (runtime choice held per thread), plugin workflows gain machine-readable JSON output + cached remote catalog suggestions, enterprise admin flows display monthly credit limits — mirroring Anthropic's June-15 per-pool ceiling pattern
+  - Simon Willison: Uber capped Claude Code at $1,500/dev/mo per AI coding tool after burning its full 2026 AI budget in four months — direct preview of the June-15 Agent SDK credit-pool world at company scale, and a reality check that the new $100/$200 individual ceilings sit in the same order of magnitude as what enterprises negotiate
 - **[2026-06-03](briefings/2026-06-03.md)**
   - Claude Security in public beta for Enterprise + Project Glasswing expanded to ~150 partners across 15+ countries — Opus 4.7-powered scan/validate/patch with Slack/Jira webhooks + CSV/Markdown export, CrowdStrike/Microsoft Security/Palo Alto/SentinelOne/Wiz as launch integrations; first time critical-infrastructure operators (power/water/healthcare/comms) explicitly join the Glasswing partner list
   - Claude Code v2.1.161 (June 2 late-day) ships `OTEL_RESOURCE_ATTRIBUTES`-as-metric-labels (slice usage by team/repo/branch without log parsing), redacts credentials and stops expanding `${VAR}` in `claude mcp list/get/add` (silent secret-leak class fix — sweep transcripts), and stops failed Bash calls cancelling sibling parallel tool calls; also fixes `forceLoginOrgUUID/Method` blocking third-party providers
