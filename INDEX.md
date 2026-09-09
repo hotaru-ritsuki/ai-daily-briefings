@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-09-09](briefings/2026-09-09.md)**
+  - **Claude Code un-froze after two briefings — v2.1.265 + v2.1.266 (Sep 8)** fix a subagent/agent-team **prompt-cache regression** (resumed teammates were silently re-paying full-context rates) and add an **MCP HTTP+SSE transport fallback** so older MCP servers connect ([changelog](https://code.claude.com/docs/en/changelog)). Just `claude update`. Shareable-angle candidate
+  - **Hamel Husain & Shreya Shankar's [`evals-skills`](https://github.com/hamelsmu/evals-skills) is a real Claude Code plugin** — skills that drive a coding agent through *product* evals; `error-discovery` turns a file of traces into a sampled review app and clusters annotations into failure modes ([writeup](https://hamelhusain.substack.com/p/evals-skills-for-coding-agents)). §8 = `/plugin marketplace add hamelsmu/evals-skills`
+  - **"Harness engineering" is the week's converging framing** — OpenAI's [primary post](https://openai.com/index/harness-engineering/) (the environment around the agent beats the model: 3 engineers, ~1,500 PRs, ~1M lines) is drawing practitioner writeups ([Ken Huang](https://kenhuangus.substack.com/p/from-software-engineering-to-harness)). Frontier flat — no new weights since GPT-6 Astra (Sep 3)
+
 - **[2026-09-08](briefings/2026-09-08.md)**
   - **Skills are going cross-harness — Amp shipped global, workspace-aware plugins & skills** that run everywhere Amp runs, importable/remixable across a team ([Amp Chronicle](https://ampcode.com/chronicle)). Same SKILL.md portability story now spanning Claude Code, Codex, and Amp — audit whether your `.claude/skills/` are harness-locked. Shareable-angle candidate
   - **Matt Pocock's [Sandcastle](https://github.com/mattpocock/sandcastle) (7.9k★, MIT) is the missing orchestration primitive for parallel agents** — `sandcastle.run()` spins each agent into an isolated sandbox (Docker/Podman/Vercel), branches, and merges commits back. TS, directly usable to fan out CC/Codex runs from a script. Also: **[Mastra](https://github.com/mastra-ai/mastra)** (27.8k★, TS agent runtime with built-in evals) and the **[Playwright-MCP survey](https://bug0.com/blog/playwright-mcp-servers-ai-testing)** (a11y-tree-first; session persistence, not features, is the production line)
