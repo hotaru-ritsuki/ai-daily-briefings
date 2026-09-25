@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-09-25](briefings/2026-09-25.md)**
+  - **⚡ Codex 0.157.0 (Sep 25) adds conversation forking (`f`) and makes GPT-6 Sol/Luna GA — including on Bedrock** ([releases](https://github.com/openai/codex/releases)); forking branches an agent run without losing your draft/queue, plus fullscreen transcripts by default and background-server autostart. `codex upgrade`
+  - **⚡ CC 2.1.282 (Sep 24) is a reliability release for long/resumed runs** ([changelog](https://code.claude.com/docs/en/changelog)) — compaction retries on a fallback model when refused, and several `--continue`/resume bugs that silently dropped Claude's earlier reasoning are fixed; also `maxProseWidth` and telemetry-ignored startup notices
+  - **Gemini 4 has entered post-training and Google wants it out "as soon as possible"** ([9to5Google](https://9to5google.com/2026/09/24/google-says-gemini-4-release-is-coming-as-soon-as-possible/)) — first concrete signal in weeks; the three-way frontier race is compressing (the "40% behind" figure is unverified). §8 wires [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) into CC for Playwright debugging; §6a goes deep on evals
+
 - **[2026-09-24](briefings/2026-09-24.md)**
   - **⚡ CC 2.1.281 (Sep 23) adds native MCP/plugin linting** — `claude plugin validate` now flags `.mcp.json` entries silently dropped at load, undeclared `${user_config.*}` references, and insecure URLs ([changelog](https://code.claude.com/docs/en/changelog)); the first *native* supply-chain pre-flight for synced plugins. Also new: MCP URL-mode elicitation (browser-OAuth flows without a hung dialog), auto-mode recommendation in `/insights`, Bedrock `assume_role` + guardrails. §8 runs `plugin validate` in <10 min
   - **⚡ Codex 0.156.1 (Sep 23) makes GPT-6 Sol and Luna selectable models** and steers the rate-limit switch to Luna ([releases](https://github.com/openai/codex/releases)) — Monday's cheap tiers now first-class in the alt CLI; re-baseline what you route to Luna vs. Opus 5.5. Alpha train already on 0.158.0 (no notes)
