@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-09-26](briefings/2026-09-26.md)**
+  - **⚡ CC 2.1.283 (Sep 25) ships `/doctor prompt-audit`** — scans CLAUDE.md/prompts for older-model patterns (stale thinking keywords, dead paths) ([changelog](https://code.claude.com/docs/en/changelog)); worth running after the Opus-5.5 default swap. Also new: `availableModelsMatch`/`deniedModels` managed settings, MCP tool outputs → OpenTelemetry, an MCP reliability batch (stateless-404 no longer bricks a server, stdio servers no longer left running), and a revert of 2.1.282's `claude-ai` name reservation
+  - **⚡ [`mksglu/context-mode`](https://github.com/mksglu/context-mode)** sandboxes raw tool output before it hits context (98% reduction, 315 KB → 5.4 KB), persists session memory in SQLite/FTS5, and enforces routing across 17 agent platforms via MCP + hooks — the community fix for monorepo context-cost. Codex only shipped 0.157.1 (minor fixes)
+  - **Anthropic named six subagent-orchestration patterns** (classify-and-act, fan-out-and-synthesize, adversarial verification, generate-and-filter, tournament, loop-until-done) that move coordination into a re-runnable script ([writeup](https://interestingengineering.substack.com/p/the-prompt-is-still-the-work-dynamic)); maps onto CC's Workflow/ultracode. Frontier quiet (no launches); Gemini 3.6 Flash sits at 34.0 vs Opus 5.5 57.6 on Intelligence Index v4.3.2 (composite — directional only)
+
 - **[2026-09-25](briefings/2026-09-25.md)**
   - **⚡ Codex 0.157.0 (Sep 25) adds conversation forking (`f`) and makes GPT-6 Sol/Luna GA — including on Bedrock** ([releases](https://github.com/openai/codex/releases)); forking branches an agent run without losing your draft/queue, plus fullscreen transcripts by default and background-server autostart. `codex upgrade`
   - **⚡ CC 2.1.282 (Sep 24) is a reliability release for long/resumed runs** ([changelog](https://code.claude.com/docs/en/changelog)) — compaction retries on a fallback model when refused, and several `--continue`/resume bugs that silently dropped Claude's earlier reasoning are fixed; also `maxProseWidth` and telemetry-ignored startup notices
