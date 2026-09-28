@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-09-28](briefings/2026-09-28.md)**
+  - **⚡ [Codex 0.158.0](https://github.com/openai/codex/releases/tag/rust-v0.158.0) shipped (Sep 28)** — MCP servers behind pre-registered OAuth client secrets now connect (`codex mcp add --oauth-client-secret`), bearer-token-secured exec WebSockets, and terminal-input approval is **on by default** for elevated commands; the one daily tool that moved (CC still 2.1.283, nothing new). Sandbox fixes across Win/Linux/macOS
+  - **[Thorsten Ball: "code review will die"](https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/)** (review = system composition, not diffs; unit tests may follow) read against [Shopify auto-merging 60–70% of low-risk PRs](https://www.bvp.com/atlas/inside-shopifys-ai-first-engineering-playbook) — the concrete shape of where PR review is heading (§6a, §9)
+  - **⚡ [`CloudAI-X/claude-workflow-v2`](https://github.com/CloudAI-X/claude-workflow-v2)** bundles agents + skills + hooks + slash-commands into one Claude Code plugin (`npx install-claude-workflow-v2@latest`) — a batteries-included baseline to diff against your hand-rolled `.claude/` (§8). Frontier quiet; new repos spec-kit, langfuse, promptfoo, mastra, angularjs-migration-copilot, codemod
+
 - **[2026-09-27](briefings/2026-09-27.md)**
   - **⚡ [`Graphify-Labs/graphify`](https://github.com/Graphify-Labs/graphify)** turns a codebase (+ docs, SQL schemas, configs, PDFs) into a queryable knowledge graph via a `/graphify` skill for CC/Cursor/Codex/Gemini — tree-sitter AST, no LLM, no vector store, every edge tagged EXTRACTED vs INFERRED. A deterministic, private alternative to embedding-based code search for Angular/Spring monorepos (§8)
   - **[`stablyai/orca`](https://github.com/stablyai/orca)** (~53k★, MIT) is an ADE for running a fleet of parallel coding agents, each isolated in its own git worktree, driving any CLI agent (CC, Codex, Gemini, Cline, +20); drop comments on a diff line and ship them back to the agent — operationalises the multi-agent CC runs you build by hand
