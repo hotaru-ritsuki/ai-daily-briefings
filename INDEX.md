@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-09-29](briefings/2026-09-29.md)**
+  - **⚡ [Claude Sonnet 5.5](https://www.marktechpost.com/2026/09/28/anthropic-releases-claude-sonnet-5-5-70-6-on-terminal-bench-4-0-at-the-same-2-10-price/) shipped (Sep 28) at unchanged $2/$10, and [CC 2.1.284](https://code.claude.com/docs/en/changelog) already makes it the default Sonnet (1M context)** — 70.6% Terminal-Bench 4.0 (Opus 5.5 = 66.4%), 1,844 GDPval-AA Elo (2 behind Opus 5.5); the routing re-baseline the last week kept flagging. Effort-default trap: high on API, medium in CC (§2, §8)
+  - **⚡ [CC 2.1.284](https://code.claude.com/docs/en/changelog) adds dollar-denominated spend limits + `/mcp reconnect all`** and fixes MCP tool calls failing in resumed sessions + damaged streams showing raw JSON. Codex unchanged (still 0.158.0)
+  - **[Opus 5.5 vs Sonnet: the pricier model cost ~half per line of code](https://antonshubin.com/blog/opus-5-5-vs-sonnet-5-agent-costs)** in a 5-day CC test — per-token price ≠ per-task cost before you rewire routing. New repos `agentproto/ts` (TS agentic runtime + eval scorers), `multica-ai/andrej-karpathy-skills` (~210k★), IDE Index MCP 5.19.0 (streaming test results). §6a leads with Willison's "2026 in LLMs" retrospective
+
 - **[2026-09-28](briefings/2026-09-28.md)**
   - **⚡ [Codex 0.158.0](https://github.com/openai/codex/releases/tag/rust-v0.158.0) shipped (Sep 28)** — MCP servers behind pre-registered OAuth client secrets now connect (`codex mcp add --oauth-client-secret`), bearer-token-secured exec WebSockets, and terminal-input approval is **on by default** for elevated commands; the one daily tool that moved (CC still 2.1.283, nothing new). Sandbox fixes across Win/Linux/macOS
   - **[Thorsten Ball: "code review will die"](https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/)** (review = system composition, not diffs; unit tests may follow) read against [Shopify auto-merging 60–70% of low-risk PRs](https://www.bvp.com/atlas/inside-shopifys-ai-first-engineering-playbook) — the concrete shape of where PR review is heading (§6a, §9)
