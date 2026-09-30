@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-09-30](briefings/2026-09-30.md)**
+  - **⚡ [OpenAI DevDay 2026](https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html) shipped [GPT-6.1 Sol](https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/) at $2/$10** — exactly matching Sonnet 5.5's price, claiming near-Astra quality at 1/5 the cost (vendor-reported, unverified); [Codex 0.159.1](https://github.com/openai/codex/releases) already made it the default engine overnight. Also: always-on "dots" agents, an open-sourced Codex harness, and OpenAI *declining* to ship GPT-6.1 Astra on safety grounds (§2)
+  - **⚡ [OpenAI open-sourced the Codex harness](https://openai.com/index/devday-2026-recap/) + [CC 2.1.285](https://code.claude.com/docs/en/changelog)** adds `claude plugin configure`, `allowedProviders`/`CLAUDE_CODE_DISABLE_WEB_FETCH` governance controls, and a 30-min background-command cap. The coordination loop behind "dots" is now a readable reference for your `.claude/` setup (§3, §4)
+  - **[`mvschwarz/openrig`](https://github.com/mvschwarz/openrig)** (~2.6k★) runs **Claude Code + Codex as one team** via YAML topologies (pods, edges, snapshot/restore) — the cleanest published take on the two-engine workflow. §6a leads with porting CC workflows to Codex (shinpr) and CC 2.0 practice (sankalp)
+
 - **[2026-09-29](briefings/2026-09-29.md)**
   - **⚡ [Claude Sonnet 5.5](https://www.marktechpost.com/2026/09/28/anthropic-releases-claude-sonnet-5-5-70-6-on-terminal-bench-4-0-at-the-same-2-10-price/) shipped (Sep 28) at unchanged $2/$10, and [CC 2.1.284](https://code.claude.com/docs/en/changelog) already makes it the default Sonnet (1M context)** — 70.6% Terminal-Bench 4.0 (Opus 5.5 = 66.4%), 1,844 GDPval-AA Elo (2 behind Opus 5.5); the routing re-baseline the last week kept flagging. Effort-default trap: high on API, medium in CC (§2, §8)
   - **⚡ [CC 2.1.284](https://code.claude.com/docs/en/changelog) adds dollar-denominated spend limits + `/mcp reconnect all`** and fixes MCP tool calls failing in resumed sessions + damaged streams showing raw JSON. Codex unchanged (still 0.158.0)
