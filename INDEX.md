@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-03](briefings/2026-10-03.md)**
+  - **⚡ [CC 2.1.288](https://code.claude.com/docs/en/changelog) (Oct 2)** adds `Ctrl+F` session search, `Alt+↑/↓` to jump tool-call groups, re-authentication prompts when an MCP server's OAuth scopes change, and a fix for **MCP tool calls running twice** — worth the upgrade for MCP-heavy sessions. Codex still at **0.160.0 stable** (only 0.162 alphas moved) (§3)
+  - **Quiet frontier/tools day — spend it on workflow debt.** No net-new model; CNBC's Argon framing notes the Artificial Analysis Intelligence Index ranks **Gemini 4 Argon behind only Opus 5.5 and Sonnet 5.5** while GPT-6 Astra still leads a composite (~88.8 vs Opus 5.5 ~87.8) (§2)
+  - **Evals-as-a-skill ([Hamel Husain](https://hamel.dev/blog/posts/evals-skills/)) + [claude-mem's tiered MCP memory](https://github.com/thedotmack/claude-mem)** (compact index → timeline → full observations, ~10× token savings, local SQLite) are the two patterns worth adopting; §8 = ship a `.claude/skills/run-evals/SKILL.md` so the agent grades its own diffs (§4, §6a, §8)
+
 - **[2026-10-02](briefings/2026-10-02.md)**
   - **⚡ [Claude Code Mods](https://claude.com/blog/claude-code-mods) shipped (Oct 1, in CC 2.1.287)** — TypeScript functions that rewrite prompts, block/rewrite/retry tool calls, redact secrets before the model reads them, and draw their own UI; the real escape hatch beyond hooks. Four official mods (`diff`, `agents-md`, `sec-default`, `telemetry`) are open source, and a community ecosystem formed day one (§3, §4, §8)
   - **⚡ [Codex 0.160.0](https://github.com/openai/codex/releases) landed stable (Oct 1)** — Guardian review can pull conversation history, sessions can start outside a project, reconnection de-dupe; first stable since 0.159.x. Community mods to watch: `karanb192/awesome-claude-code-mods` (footprint scanner), `ShindouMihou/cc-redact` (structure-preserving secret redaction) (§4, §5)
