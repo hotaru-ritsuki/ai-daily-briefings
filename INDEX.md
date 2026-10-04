@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-04](briefings/2026-10-04.md)**
+  - **⚡ [CC 2.1.289](https://code.claude.com/docs/en/changelog) (Oct 3)** is a permissions/sandbox-hardening release: it closes `deny`/`ask` bypasses via env-var-prefixed compound commands and bare variable assignments under sandbox auto-allow, fixes `Read` deny rules not applying through symlinks, and adds `agent.spawn` for teammate mods. Codex still **0.160.0 stable** (only 0.162 alphas, empty notes) (§1, §3)
+  - **Quiet frontier/tools day — spend it on guardrail/workflow debt.** No net-new model; Anthropic's **[Claude Frontier Academy](https://claude.com/blog-category/announcements)** ($100M, 10k engineers) is a workforce play, not a tool change; Gemini 4 Argon stays locked (§2)
+  - **⚡ [Willison: hard budget caps by default](https://aiweekly.co/alerts/willison-dates-coding-agent-step-change-to-november-2025)** + **[earendil-works/pi](https://github.com/earendil-works/pi)** (hackable LLM+agent+CLI toolkit, TS SDK) and the **LLM-as-judge-grounds-every-finding** review pattern ([CodeReviewAgent](https://github.com/cassioalmeron/CodeReviewAgent)); §8 = add a grounded-judge pass to your `/code-review` flow (§4, §5, §6a, §8, §9)
+
 - **[2026-10-03](briefings/2026-10-03.md)**
   - **⚡ [CC 2.1.288](https://code.claude.com/docs/en/changelog) (Oct 2)** adds `Ctrl+F` session search, `Alt+↑/↓` to jump tool-call groups, re-authentication prompts when an MCP server's OAuth scopes change, and a fix for **MCP tool calls running twice** — worth the upgrade for MCP-heavy sessions. Codex still at **0.160.0 stable** (only 0.162 alphas moved) (§3)
   - **Quiet frontier/tools day — spend it on workflow debt.** No net-new model; CNBC's Argon framing notes the Artificial Analysis Intelligence Index ranks **Gemini 4 Argon behind only Opus 5.5 and Sonnet 5.5** while GPT-6 Astra still leads a composite (~88.8 vs Opus 5.5 ~87.8) (§2)
