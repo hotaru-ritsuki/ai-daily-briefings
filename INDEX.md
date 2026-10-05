@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-05](briefings/2026-10-05.md)**
+  - **⚡ Nothing shipped in 24–72h — neither the frontier nor your daily tools.** CC still **2.1.289**, Codex still **0.160.0 stable** (0.162 alphas, empty notes); no net-new model. A maintenance day: pay down skill/eval debt (§2, §3)
+  - **Skills are becoming a cross-harness package format** — [NVIDIA/skills](https://github.com/NVIDIA/skills) installs into Claude Code **and** Codex; the skill-design meta has hardened (≤500 lines, one category, deterministic steps → scripts, refs one level deep, test per model) (§1, §4, §8)
+  - **Net-new repos** [strands-agents/evals](https://github.com/strands-agents/evals), [deepeval](https://github.com/confident-ai/deepeval), [awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit), [claude-seo](https://github.com/AgricIDaniel/claude-seo) (19-subagent fan-out); §6a [philschmid harness thesis](https://www.philschmid.de/agent-harness-2026) + [heym.run spec postmortem](https://heym.run/blog/spec-driven-development). Accuracy note: "DeepSeek V4.1 Flash Oct 4" is mis-dated slop (shipped Sep 10) (§2, §5, §6)
+
 - **[2026-10-04](briefings/2026-10-04.md)**
   - **⚡ [CC 2.1.289](https://code.claude.com/docs/en/changelog) (Oct 3)** is a permissions/sandbox-hardening release: it closes `deny`/`ask` bypasses via env-var-prefixed compound commands and bare variable assignments under sandbox auto-allow, fixes `Read` deny rules not applying through symlinks, and adds `agent.spawn` for teammate mods. Codex still **0.160.0 stable** (only 0.162 alphas, empty notes) (§1, §3)
   - **Quiet frontier/tools day — spend it on guardrail/workflow debt.** No net-new model; Anthropic's **[Claude Frontier Academy](https://claude.com/blog-category/announcements)** ($100M, 10k engineers) is a workforce play, not a tool change; Gemini 4 Argon stays locked (§2)
