@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-06](briefings/2026-10-06.md)**
+  - **⚡ Claude Code shipped twice — [2.1.290](https://code.claude.com/docs/en/changelog) (Oct 5) + [2.1.291](https://code.claude.com/docs/en/changelog) (Oct 6).** 2.1.290 fixes WebFetch silently truncating past 100k chars, resumed subagents losing thinking/cache, and **scheduled tasks losing persistence after compaction** (the failure mode these daily runs hit); 2.1.291 patches a 2.1.290 cloud-session permission-prompt regression. Codex **0.160.1** stable (Windows remote-MCP env vars) (§1, §3)
+  - **[NVIDIA OpenShell](https://docs.nvidia.com/openshell/about/overview) (Apache-2.0): kernel-level agent sandboxing** — Landlock (filesystem) + seccomp-BPF (syscalls), declarative YAML policy enforced below the agent so it holds even if the agent is compromised. The governance primitive for running Claude Code against a regulated/fintech repo; [Tigera's skeptic read](https://www.tigera.io/blog/nvidia-openshell-secures-the-agent-who-governs-the-fleet/) flags fleet-level egress as still unsolved (§1, §4, §8, §9)
+  - **[mattpocock/skills](https://github.com/mattpocock/skills) (MIT): 21 Claude Code skills for TS/JS engineers** (PRD → TDD → diff review → merge-conflict), the rare public `.claude/` set aimed at your stack; §8 = clone it and run the review skill. Frontier quiet (no net-new model); §6b [LangChain's State of Agent Engineering](https://www.langchain.com/state-of-agent-engineering) — quality, not cost, is the top blocker and 48% run no evals (§5, §6, §8)
+
 - **[2026-10-05](briefings/2026-10-05.md)**
   - **⚡ Nothing shipped in 24–72h — neither the frontier nor your daily tools.** CC still **2.1.289**, Codex still **0.160.0 stable** (0.162 alphas, empty notes); no net-new model. A maintenance day: pay down skill/eval debt (§2, §3)
   - **Skills are becoming a cross-harness package format** — [NVIDIA/skills](https://github.com/NVIDIA/skills) installs into Claude Code **and** Codex; the skill-design meta has hardened (≤500 lines, one category, deterministic steps → scripts, refs one level deep, test per model) (§1, §4, §8)
