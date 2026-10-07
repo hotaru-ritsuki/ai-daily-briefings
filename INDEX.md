@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-07](briefings/2026-10-07.md)**
+  - **⚡ [Claude Code 2.1.292](https://code.claude.com/docs/en/changelog) (Oct 6)** adds an `effort` parameter to the Agent tool (spawn subagents at a chosen effort level — a real cost/quality knob for fan-out runs) and patches a permission bypass where plugin-hook approvals + auto mode skipped the prompt for UNC paths. Codex no new stable since 0.160.1 (§1, §3)
+  - **[mubaidr/gem-team](https://github.com/mubaidr/gem-team) (226★, Apache-2.0): multi-agent orchestration with risk-based quality gates** — planner→implementer→reviewer→debugger, TDD enforced, verification intensity scales with complexity, ~40–60% less context per task via scoped handoffs + prompt caching. A packaged version of the subagent discipline you hand-roll (§4, §5, §8)
+  - **Frontier + Codex both quiet** — no verified net-new model in 24–72h (the "most powerful Claude public Oct 6" headlines are recycled slop); §8 = clone [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), wire TDD + code-review skills into an Angular repo. §6b: New Relic data — 94% rate AI code higher-quality at review, 78% see more prod incidents (§2, §6b, §8)
+
 - **[2026-10-06](briefings/2026-10-06.md)**
   - **⚡ Claude Code shipped twice — [2.1.290](https://code.claude.com/docs/en/changelog) (Oct 5) + [2.1.291](https://code.claude.com/docs/en/changelog) (Oct 6).** 2.1.290 fixes WebFetch silently truncating past 100k chars, resumed subagents losing thinking/cache, and **scheduled tasks losing persistence after compaction** (the failure mode these daily runs hit); 2.1.291 patches a 2.1.290 cloud-session permission-prompt regression. Codex **0.160.1** stable (Windows remote-MCP env vars) (§1, §3)
   - **[NVIDIA OpenShell](https://docs.nvidia.com/openshell/about/overview) (Apache-2.0): kernel-level agent sandboxing** — Landlock (filesystem) + seccomp-BPF (syscalls), declarative YAML policy enforced below the agent so it holds even if the agent is compromised. The governance primitive for running Claude Code against a regulated/fintech repo; [Tigera's skeptic read](https://www.tigera.io/blog/nvidia-openshell-secures-the-agent-who-governs-the-fleet/) flags fleet-level egress as still unsolved (§1, §4, §8, §9)
