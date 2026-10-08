@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-08](briefings/2026-10-08.md)**
+  - **⚡ [Claude Haiku 5.5](https://www.anthropic.com/news) shipped GA (Oct 7)** — 1M context, $0.10/$0.50 per Mtok, already the default Haiku in [Claude Code 2.1.293](https://code.claude.com/docs/en/changelog). The cheap subagent-worker you were waiting on; gotcha: adaptive thinking default-on, manual `budget_tokens` now 400s. Sonnet 5.5 cache reads also halved to $0.10/Mtok (§1, §2)
+  - **Both daily tools shipped stable: [CC 2.1.293/294](https://code.claude.com/docs/en/changelog) + [Codex 0.161.0](https://github.com/openai/codex/releases).** CC adds `agentType` to subagent status-line + `isDeferred` for mods, and 2.1.294 patches instruction-style hooks that could permit what they should block; Codex adds terminal `/mcp login` and a filesystem-escalation fix (§3)
+  - **[dzhng/jevgrep](https://github.com/dzhng/jevgrep): semantic grep for agents** ("find code by describing what it does"), measured ~29% agent-cost cut — §8 = wire it into one repo as a skill and compare token spend. Fresh repos: [gotalab/cc-sdd](https://github.com/gotalab/cc-sdd), [pi-subagents](https://github.com/tintinweb/pi-subagents), [AIHOT](https://github.com/marc-ko/daily-trending-repo/issues/567) (§4, §5, §8)
+
 - **[2026-10-07](briefings/2026-10-07.md)**
   - **⚡ [Claude Code 2.1.292](https://code.claude.com/docs/en/changelog) (Oct 6)** adds an `effort` parameter to the Agent tool (spawn subagents at a chosen effort level — a real cost/quality knob for fan-out runs) and patches a permission bypass where plugin-hook approvals + auto mode skipped the prompt for UNC paths. Codex no new stable since 0.160.1 (§1, §3)
   - **[mubaidr/gem-team](https://github.com/mubaidr/gem-team) (226★, Apache-2.0): multi-agent orchestration with risk-based quality gates** — planner→implementer→reviewer→debugger, TDD enforced, verification intensity scales with complexity, ~40–60% less context per task via scoped handoffs + prompt caching. A packaged version of the subagent discipline you hand-roll (§4, §5, §8)
