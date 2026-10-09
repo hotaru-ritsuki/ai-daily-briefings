@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-09](briefings/2026-10-09.md)**
+  - **⚡ Both daily tools shipped overnight: [Claude Code 2.1.295](https://code.claude.com/docs/en/changelog) + [Codex 0.162.0](https://github.com/openai/codex/releases) (Oct 8).** CC adds `onFailure: "block"` for command/HTTP hooks (hooks can now fail-closed, not just warn) and raises the MCP-tool-description cap 2,048→16,384 chars via tool search; Codex adds managed Git worktree tools for trusted local projects (§1, §3)
+  - **⚡ [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): Anthropic's own role-based plugin library** (engineering/data/legal/finance…), pure Markdown+JSON — a first-party template for skills + slash commands + MCP connectors. §8 = `claude plugin marketplace add anthropics/knowledge-work-plugins` and diff against your `.claude/` (§4, §8, §9)
+  - **[headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom): reversible context compression** for tool outputs/logs/RAG, with an MCP server + agent wrapper for Claude/Codex/Cursor — the output-side complement to last week's jevgrep. Fintech: FSB final report on agentic AI due this month (§5, §7)
+
 - **[2026-10-08](briefings/2026-10-08.md)**
   - **⚡ [Claude Haiku 5.5](https://www.anthropic.com/news) shipped GA (Oct 7)** — 1M context, $0.10/$0.50 per Mtok, already the default Haiku in [Claude Code 2.1.293](https://code.claude.com/docs/en/changelog). The cheap subagent-worker you were waiting on; gotcha: adaptive thinking default-on, manual `budget_tokens` now 400s. Sonnet 5.5 cache reads also halved to $0.10/Mtok (§1, §2)
   - **Both daily tools shipped stable: [CC 2.1.293/294](https://code.claude.com/docs/en/changelog) + [Codex 0.161.0](https://github.com/openai/codex/releases).** CC adds `agentType` to subagent status-line + `isDeferred` for mods, and 2.1.294 patches instruction-style hooks that could permit what they should block; Codex adds terminal `/mcp login` and a filesystem-escalation fix (§3)
