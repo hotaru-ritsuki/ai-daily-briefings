@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-10](briefings/2026-10-10.md)**
+  - **⚡ [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) (~104k★, MIT): Addy Osmani's 25 lifecycle skills for coding agents** (define→plan→build→verify→review→ship) as plain Markdown across CC/Cursor/Codex/Copilot — a public, stack-adjacent `.claude/skills/` template; §8 = clone it and drop `context-engineering` + `test-driven-development` into `.claude/skills/` (§1, §4, §5, §8, §9)
+  - **⚡ [Claude Code 2.1.296](https://code.claude.com/docs/en/changelog) (Oct 9)** adds per-subagent `autoCompactWindow`, `CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL` (pin fan-out to one cheap model), and `allow_large` on the Read tool — direct levers for subagent fan-out + long cloud runs; `/cost` now prices Sonnet 5.5 cache reads at $0.10. Codex **0.162.1** stable is patch-only (§1, §3)
+  - **[alibaba/open-code-review](https://github.com/alibaba/open-code-review) (~45.5k★, Apache-2.0, Go): `ocr` AI code-review CLI** — diff→model→line-level comments (null-ptr, thread-safety, XSS, SQLi), OpenAI/Anthropic-compatible with a Delegation Mode — a self-hostable review gate for Spring/fintech code. Frontier + fintech both quiet (no Oct primary source) (§2, §5, §7)
+
 - **[2026-10-09](briefings/2026-10-09.md)**
   - **⚡ Both daily tools shipped overnight: [Claude Code 2.1.295](https://code.claude.com/docs/en/changelog) + [Codex 0.162.0](https://github.com/openai/codex/releases) (Oct 8).** CC adds `onFailure: "block"` for command/HTTP hooks (hooks can now fail-closed, not just warn) and raises the MCP-tool-description cap 2,048→16,384 chars via tool search; Codex adds managed Git worktree tools for trusted local projects (§1, §3)
   - **⚡ [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): Anthropic's own role-based plugin library** (engineering/data/legal/finance…), pure Markdown+JSON — a first-party template for skills + slash commands + MCP connectors. §8 = `claude plugin marketplace add anthropics/knowledge-work-plugins` and diff against your `.claude/` (§4, §8, §9)
