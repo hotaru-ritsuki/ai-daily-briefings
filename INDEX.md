@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-11](briefings/2026-10-11.md)**
+  - **⚡ [obra/superpowers](https://github.com/obra/superpowers) (~295k★?, MIT): a dev *methodology* for coding agents, not just a skill collection** — a `SessionStart` hook bootstraps auto-triggering skills (brainstorm→plan→TDD→review→debug) across CC/Codex/Cursor/Gemini/Copilot; the opinionated process layer above `addyosmani/agent-skills`. §8-adjacent clone-in (§1, §4, §5)
+  - **⚡ [mksglu/context-mode](https://github.com/mksglu/context-mode) (~26k★, ELv2, MCP server): sandboxes tool output** — `ctx_execute` runs code in a subprocess and surfaces only stdout (README claims 315 KB→5.4 KB), indexes the rest into SQLite FTS5, survives compaction; the cleanest fix yet for subagent fan-out flooding the orchestrator. §8 = install + route one log-heavy task through it (§1, §4, §8)
+  - **"Harness engineering" (Agent = Model + Harness) is the week's sharper frame** ([Böckeler](https://martinfowler.com/articles/exploring-gen-ai/), [Marmelab](https://marmelab.com/blog/2026/09/24/the-state-of-ai-harness-engineering-2026.html)): hooks+skills+subagents+tool defs = one testable surface, and ~60% of OSS harnesses ship with no evals. Also [mvschwarz/openrig](https://github.com/mvschwarz/openrig) (CC+Codex+Pi as persistent teams). CC/Codex changelogs: nothing new since 2.1.296/0.162.1; frontier quiet (§2, §3, §6a, §9)
+
 - **[2026-10-10](briefings/2026-10-10.md)**
   - **⚡ [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) (~104k★, MIT): Addy Osmani's 25 lifecycle skills for coding agents** (define→plan→build→verify→review→ship) as plain Markdown across CC/Cursor/Codex/Copilot — a public, stack-adjacent `.claude/skills/` template; §8 = clone it and drop `context-engineering` + `test-driven-development` into `.claude/skills/` (§1, §4, §5, §8, §9)
   - **⚡ [Claude Code 2.1.296](https://code.claude.com/docs/en/changelog) (Oct 9)** adds per-subagent `autoCompactWindow`, `CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL` (pin fan-out to one cheap model), and `allow_large` on the Read tool — direct levers for subagent fan-out + long cloud runs; `/cost` now prices Sonnet 5.5 cache reads at $0.10. Codex **0.162.1** stable is patch-only (§1, §3)
