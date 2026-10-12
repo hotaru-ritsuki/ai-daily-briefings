@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-12](briefings/2026-10-12.md)**
+  - **⚡ [Pi 1.0](https://pi.dev) shipped (Oct 1) with [Pi Durable](https://github.com/earendil-works/pi) (~114k★): an agent runtime that checkpoints every step** — crash, laptop sleep or container restart resumes at the last completed step, and one harness can run/branch many conversations in parallel (Bun / Cloudflare Durable Objects). The direct fix for the persistence-after-compaction failure your scheduled/cloud runs hit; §8 = `kill -9` a Pi task mid-run and watch it resume (§1, §4, §5, §8)
+  - **⚡ OpenAI is shutting down hosted Evals + Agent Builder** ([deprecations](https://developers.openai.com/api/docs/deprecations.md)) — read-only **Oct 31** (19 days out), API gone Nov 30 — and points to [Promptfoo](https://github.com/promptfoo/promptfoo) as the migration target. Export any eval history before the read-only cutoff (§1, §2, §8)
+  - **Durable execution is becoming a named pattern for agents** ([the durable-execution stack](https://greenabstracts.substack.com/p/the-durable-execution-stack-for-agents); DBOS/Temporal/Restate compared) — key gotcha: an LLM call made *outside* a recorded step gets re-billed on resume. CC/Codex changelogs: nothing new since 2.1.296/0.162.1; frontier quiet. Fintech: EU Digital Omnibus defers high-risk credit-scoring AI obligations to Dec 2027, but Article 50 transparency stays Aug 2026 (§3, §6a, §7)
+
 - **[2026-10-11](briefings/2026-10-11.md)**
   - **⚡ [obra/superpowers](https://github.com/obra/superpowers) (~295k★?, MIT): a dev *methodology* for coding agents, not just a skill collection** — a `SessionStart` hook bootstraps auto-triggering skills (brainstorm→plan→TDD→review→debug) across CC/Codex/Cursor/Gemini/Copilot; the opinionated process layer above `addyosmani/agent-skills`. §8-adjacent clone-in (§1, §4, §5)
   - **⚡ [mksglu/context-mode](https://github.com/mksglu/context-mode) (~26k★, ELv2, MCP server): sandboxes tool output** — `ctx_execute` runs code in a subprocess and surfaces only stdout (README claims 315 KB→5.4 KB), indexes the rest into SQLite FTS5, survives compaction; the cleanest fix yet for subagent fan-out flooding the orchestrator. §8 = install + route one log-heavy task through it (§1, §4, §8)
