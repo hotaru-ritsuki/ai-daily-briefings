@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-13](briefings/2026-10-13.md)**
+  - **⚡ Quiet day: no Claude Code release after 2.1.296, Codex only at 0.163.0-alpha.5** — adopt last week's hooks/subagent-compaction features instead (§3)
+  - **⚡ Anthropic's [How we contain Claude](https://www.anthropic.com/engineering/how-we-contain-claude): users approve ~93% of permission prompts, so rely on sandbox/egress/credential isolation** — §8 = audit your sandbox setup (§6a, §8)
+  - **Simon Willison's Oct 14 SF agentic-engineering meetup; Gemini 4 Argon still vetted-access only; repos/fintech empty** (§1, §2)
+
 - **[2026-10-12](briefings/2026-10-12.md)**
   - **⚡ [Pi 1.0](https://pi.dev) shipped (Oct 1) with [Pi Durable](https://github.com/earendil-works/pi) (~114k★): an agent runtime that checkpoints every step** — crash, laptop sleep or container restart resumes at the last completed step, and one harness can run/branch many conversations in parallel (Bun / Cloudflare Durable Objects). The direct fix for the persistence-after-compaction failure your scheduled/cloud runs hit; §8 = `kill -9` a Pi task mid-run and watch it resume (§1, §4, §5, §8)
   - **⚡ OpenAI is shutting down hosted Evals + Agent Builder** ([deprecations](https://developers.openai.com/api/docs/deprecations.md)) — read-only **Oct 31** (19 days out), API gone Nov 30 — and points to [Promptfoo](https://github.com/promptfoo/promptfoo) as the migration target. Export any eval history before the read-only cutoff (§1, §2, §8)
