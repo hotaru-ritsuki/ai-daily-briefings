@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-14](briefings/2026-10-14.md)**
+  - **⚡ [Claude Code 2.1.299](https://code.claude.com/docs/en/changelog) makes stateless MCP (spec 2026-07-28) the default for cloud/Remote Control connectors** — test your MCP servers; `MCP_PROTOCOL_NEGOTIATION=legacy` opts out (§1, §3, §4, §8)
+  - **⚡ 2.1.299 adds idle compaction for >200K sessions, fail-closed plugin hooks, MCP allow rules matching only the named server, and a macOS sandbox symlink fix** (§3)
+  - **Simon Willison + Jesse Vincent agentic-engineering BoF in SF tonight; Codex only alphas, frontier/repos/fintech thin** (§1, §3)
+
 - **[2026-10-13](briefings/2026-10-13.md)**
   - **⚡ Quiet day: no Claude Code release after 2.1.296, Codex only at 0.163.0-alpha.5** — adopt last week's hooks/subagent-compaction features instead (§3)
   - **⚡ Anthropic's [How we contain Claude](https://www.anthropic.com/engineering/how-we-contain-claude): users approve ~93% of permission prompts, so rely on sandbox/egress/credential isolation** — §8 = audit your sandbox setup (§6a, §8)
