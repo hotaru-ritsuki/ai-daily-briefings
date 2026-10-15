@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-15](briefings/2026-10-15.md)**
+  - **⚡ [Claude Code 2.1.300](https://code.claude.com/docs/en/changelog) validates hook `updatedInput` like native tool input** — unknown keys dropped, rejected input denies the call; re-test input-rewriting hooks (§1, §3, §8)
+  - **⚡ `claude remote-control` now errors on `--sandbox`/`--no-sandbox`** — use `sandbox.enabled` in settings (§1, §3, §8)
+  - **Anthropic: [Redesigning source control](https://www.anthropic.com/engineering/redesigning-source-control)** — merges >10× (30k+/day) made VCS the agent-scale bottleneck. Codex alphas only; frontier/fintech thin (§1, §6a)
+
 - **[2026-10-14](briefings/2026-10-14.md)**
   - **⚡ [Claude Code 2.1.299](https://code.claude.com/docs/en/changelog) makes stateless MCP (spec 2026-07-28) the default for cloud/Remote Control connectors** — test your MCP servers; `MCP_PROTOCOL_NEGOTIATION=legacy` opts out (§1, §3, §4, §8)
   - **⚡ 2.1.299 adds idle compaction for >200K sessions, fail-closed plugin hooks, MCP allow rules matching only the named server, and a macOS sandbox symlink fix** (§3)
