@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-16](briefings/2026-10-16.md)**
+  - **⚡ [Claude Code 2.1.301](https://code.claude.com/docs/en/changelog) adds a retry-watchdog cap for unattended usage-limit waits** — set it on scheduled routines (§1, §3, §8)
+  - **[Codex 0.163.0](https://github.com/openai/codex/releases) stable: mid-response steering, permissions restored on resume, DNS permission check** (§3)
+  - **Anthropic [embeds independent evaluators](https://www.anthropic.com/news/an-update-on-independent-evaluators) (METR et al.)**; blogs unreachable, frontier/fintech thin (§2, §6b)
+
 - **[2026-10-15](briefings/2026-10-15.md)**
   - **⚡ [Claude Code 2.1.300](https://code.claude.com/docs/en/changelog) validates hook `updatedInput` like native tool input** — unknown keys dropped, rejected input denies the call; re-test input-rewriting hooks (§1, §3, §8)
   - **⚡ `claude remote-control` now errors on `--sandbox`/`--no-sandbox`** — use `sandbox.enabled` in settings (§1, §3, §8)
