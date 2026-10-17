@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-17](briefings/2026-10-17.md)**
+  - **⚡ [Claude Code 2.1.302](https://code.claude.com/docs/en/changelog) stops scheduled routines re-running from scratch after a partial failure** — audit routine idempotency (§1, §3, §8)
+  - **⚡ 2.1.302 enables fork subagents by default in `claude -p`/SDK/desktop/VS Code and caps prompt/agent hooks at 12 concurrent** (§1, §3)
+  - **Standalone Claude Design closes Dec 14; Codex only alphas; blogs unreachable, frontier/fintech thin** (§1, §3)
+
 - **[2026-10-16](briefings/2026-10-16.md)**
   - **⚡ [Claude Code 2.1.301](https://code.claude.com/docs/en/changelog) adds a retry-watchdog cap for unattended usage-limit waits** — set it on scheduled routines (§1, §3, §8)
   - **[Codex 0.163.0](https://github.com/openai/codex/releases) stable: mid-response steering, permissions restored on resume, DNS permission check** (§3)
