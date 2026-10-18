@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-18](briefings/2026-10-18.md)**
+  - **⚡ Quiet day: no Claude Code release after [2.1.302](https://code.claude.com/docs/en/changelog), Codex only alphas** — adopt fork subagents/hook caps in headless pipelines (§1, §3, §8)
+  - **New: [stablyai/orca](https://github.com/stablyai/orca) agent-fleet manager and [ai-memory](https://github.com/akitaonrails/ai-memory) cross-vendor memory** (§4, §5)
+  - **No verified frontier model releases; "GPT-6 Astra" response stories are rumours; blogs unreachable** (§1, §2)
+
 - **[2026-10-17](briefings/2026-10-17.md)**
   - **⚡ [Claude Code 2.1.302](https://code.claude.com/docs/en/changelog) stops scheduled routines re-running from scratch after a partial failure** — audit routine idempotency (§1, §3, §8)
   - **⚡ 2.1.302 enables fork subagents by default in `claude -p`/SDK/desktop/VS Code and caps prompt/agent hooks at 12 concurrent** (§1, §3)
