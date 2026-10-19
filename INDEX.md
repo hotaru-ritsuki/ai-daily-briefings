@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-19](briefings/2026-10-19.md)**
+  - **[Claude Code 2.1.303](https://code.claude.com/docs/en/changelog): bug-fix-only release; Codex still only alphas** (§1, §3)
+  - **[shinpr/sub-agents-mcp](https://glama.ai/mcp/servers/@shinpr/sub-agents-mcp) shares markdown subagents across Claude Code/Cursor/Codex CLIs** (§1, §4, §5)
+  - **⚡ Try: move a CLAUDE.md rule into a PreToolUse hook; no verified frontier releases, blogs thin** (§2, §8)
+
 - **[2026-10-18](briefings/2026-10-18.md)**
   - **⚡ Quiet day: no Claude Code release after [2.1.302](https://code.claude.com/docs/en/changelog), Codex only alphas** — adopt fork subagents/hook caps in headless pipelines (§1, §3, §8)
   - **New: [stablyai/orca](https://github.com/stablyai/orca) agent-fleet manager and [ai-memory](https://github.com/akitaonrails/ai-memory) cross-vendor memory** (§4, §5)
