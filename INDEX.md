@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-20](briefings/2026-10-20.md)**
+  - **⚡ [Claude Code 2.1.304](https://code.claude.com/docs/en/changelog): Code Review levels, `/auto-mode-setup`, plugins can't outlive `--max-turns`** (§1, §3)
+  - **⚡ 2.1.304 fixes `AUTO_COMPACT_WINDOW=200k` parsing and sandbox `denyRead` bracket globs** (§1, §3)
+  - **Codex still only 0.164.0 alphas; no verified model releases; blogs thin** (§2, §3)
+
 - **[2026-10-19](briefings/2026-10-19.md)**
   - **[Claude Code 2.1.303](https://code.claude.com/docs/en/changelog): bug-fix-only release; Codex still only alphas** (§1, §3)
   - **[shinpr/sub-agents-mcp](https://glama.ai/mcp/servers/@shinpr/sub-agents-mcp) shares markdown subagents across Claude Code/Cursor/Codex CLIs** (§1, §4, §5)
