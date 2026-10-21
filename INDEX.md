@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-21](briefings/2026-10-21.md)**
+  - **⚡ [Claude Code 2.1.305/2.1.306](https://code.claude.com/docs/en/changelog): fixes 2.1.304 gateway tool-search regression, new sandbox/retry-watchdog options** (§1, §3)
+  - **⚡ [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill): hunter→verifier multi-agent audit skill** (§1, §4, §5, §8)
+  - **Codex still only 0.164.0 alphas; no model releases; blogs unreachable** (§2, §3)
+
 - **[2026-10-20](briefings/2026-10-20.md)**
   - **⚡ [Claude Code 2.1.304](https://code.claude.com/docs/en/changelog): Code Review levels, `/auto-mode-setup`, plugins can't outlive `--max-turns`** (§1, §3)
   - **⚡ 2.1.304 fixes `AUTO_COMPACT_WINDOW=200k` parsing and sandbox `denyRead` bracket globs** (§1, §3)
