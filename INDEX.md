@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-22](briefings/2026-10-22.md)**
+  - **⚡ [Claude Code 2.1.307](https://code.claude.com/docs/en/changelog): HTTP MCP calls no longer double-sent on disconnect; new `claude_code.safety_event` OTel event** (§1, §3, §8)
+  - **⚡ 2.1.307 fork subagents know their own launch; unparseable tool calls retried twice; 2.1.308 bug-fix-only** (§1, §3)
+  - **Codex still only 0.164.0 alphas; no frontier releases; blogs thin** (§2, §3)
+
 - **[2026-10-21](briefings/2026-10-21.md)**
   - **⚡ [Claude Code 2.1.305/2.1.306](https://code.claude.com/docs/en/changelog): fixes 2.1.304 gateway tool-search regression, new sandbox/retry-watchdog options** (§1, §3)
   - **⚡ [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill): hunter→verifier multi-agent audit skill** (§1, §4, §5, §8)
