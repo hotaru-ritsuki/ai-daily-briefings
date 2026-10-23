@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-23](briefings/2026-10-23.md)**
+  - **⚡ [Claude Code 2.1.309](https://code.claude.com/docs/en/changelog): 62 fixes, sandbox/permission hardening, `ultrareview` needs `--trust-workspace`** (§1, §3, §8)
+  - **⚡ [Codex 0.164.0](https://github.com/openai/codex/releases) stable: `/presets`, inline `/model`/`/permissions`, enterprise MCP auth** (§1, §3)
+  - **[Anthropic donates Agent Skills to the Agentic AI Foundation](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)** (§1, §2, §6a)
+
 - **[2026-10-22](briefings/2026-10-22.md)**
   - **⚡ [Claude Code 2.1.307](https://code.claude.com/docs/en/changelog): HTTP MCP calls no longer double-sent on disconnect; new `claude_code.safety_event` OTel event** (§1, §3, §8)
   - **⚡ 2.1.307 fork subagents know their own launch; unparseable tool calls retried twice; 2.1.308 bug-fix-only** (§1, §3)
