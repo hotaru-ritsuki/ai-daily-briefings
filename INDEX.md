@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-24](briefings/2026-10-24.md)**
+  - **⚡ [Claude Code 2.1.310](https://code.claude.com/docs/en/changelog): MCP elicitation timeouts no longer retried, Monitor works on Bedrock/Vertex/Foundry** (§1, §3)
+  - **[Anthropic: Redesigning source control](https://www.anthropic.com/research/redesigning-source-control) — 30k+ agent merges/day forced a git replacement** (§1, §6a, §9)
+  - **Codex still 0.164.0 stable + 0.165.0-alpha.1; no verified model releases; thin day** (§2, §3)
+
 - **[2026-10-23](briefings/2026-10-23.md)**
   - **⚡ [Claude Code 2.1.309](https://code.claude.com/docs/en/changelog): 62 fixes, sandbox/permission hardening, `ultrareview` needs `--trust-workspace`** (§1, §3, §8)
   - **⚡ [Codex 0.164.0](https://github.com/openai/codex/releases) stable: `/presets`, inline `/model`/`/permissions`, enterprise MCP auth** (§1, §3)
