@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-27](briefings/2026-10-27.md)**
+  - **⚡ [Claude Code 2.1.311](https://code.claude.com/docs/en/changelog): `ultrathink` runs at xhigh effort; cloud-provider model settings load from a signed remote file** (§1, §3)
+  - **[Anthropic files S-1](https://www.anthropic.com/news/s1-sec) for Nasdaq IPO (ticker ANT)** (§1, §2)
+  - **⚡ [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): scan agent skills/MCP configs before installing** (§1, §5, §8)
+
 - **[2026-10-24](briefings/2026-10-24.md)**
   - **⚡ [Claude Code 2.1.310](https://code.claude.com/docs/en/changelog): MCP elicitation timeouts no longer retried, Monitor works on Bedrock/Vertex/Foundry** (§1, §3)
   - **[Anthropic: Redesigning source control](https://www.anthropic.com/research/redesigning-source-control) — 30k+ agent merges/day forced a git replacement** (§1, §6a, §9)
