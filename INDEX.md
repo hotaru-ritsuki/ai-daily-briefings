@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-28](briefings/2026-10-28.md)**
+  - **⚡ [Codex 0.165.0](https://github.com/openai/codex/releases/tag/rust-v0.165.0) stable: memory v2 default, mid-conversation reasoning effort, Vertex provider** (§1, §3)
+  - **⚡ [Claude Code 2.1.312](https://github.com/anthropics/claude-code/releases): hook concurrency caps, no more overwriting huge CLAUDE.md** (§1, §3, §8)
+  - **[Anthropic–GSA partnership](https://www.anthropic.com/news); no new frontier models verified** (§1, §2)
+
 - **[2026-10-27](briefings/2026-10-27.md)**
   - **⚡ [Claude Code 2.1.311](https://code.claude.com/docs/en/changelog): `ultrathink` runs at xhigh effort; cloud-provider model settings load from a signed remote file** (§1, §3)
   - **[Anthropic files S-1](https://www.anthropic.com/news/s1-sec) for Nasdaq IPO (ticker ANT)** (§1, §2)
