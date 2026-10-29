@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-29](briefings/2026-10-29.md)**
+  - **No new [Claude Code](https://code.claude.com/docs/en/changelog) release (2.1.312 still newest); Codex only 0.166.0 alphas** (§1, §3)
+  - **[Anthropic AI for Science expansion](https://www.anthropic.com/news) — only new Anthropic item, not dev-relevant** (§1, §2)
+  - **⚡ Ronacher's "Codemode" pattern → measure MCP schema token cost** (§1, §6a, §8)
+
 - **[2026-10-28](briefings/2026-10-28.md)**
   - **⚡ [Codex 0.165.0](https://github.com/openai/codex/releases/tag/rust-v0.165.0) stable: memory v2 default, mid-conversation reasoning effort, Vertex provider** (§1, §3)
   - **⚡ [Claude Code 2.1.312](https://github.com/anthropics/claude-code/releases): hook concurrency caps, no more overwriting huge CLAUDE.md** (§1, §3, §8)
