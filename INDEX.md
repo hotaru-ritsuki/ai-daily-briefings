@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-30](briefings/2026-10-30.md)**
+  - **⚡ [Claude Code 2.1.314](https://github.com/anthropics/claude-code/releases): `blockWritesOutsideWorkingDirectories`, PreCompact output cap** (§1, §3, §8)
+  - **⚡ [Codex 0.166.0](https://github.com/openai/codex/releases) stable: GPT-6.1 Terra in catalog, permissions persist across resume/fork** (§1, §3)
+  - **[OpenAI GPT-6.1 Terra](https://bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing): $1/$5 per M tokens, vendor-reported benchmarks** (§1, §2)
+
 - **[2026-10-29](briefings/2026-10-29.md)**
   - **No new [Claude Code](https://code.claude.com/docs/en/changelog) release (2.1.312 still newest); Codex only 0.166.0 alphas** (§1, §3)
   - **[Anthropic AI for Science expansion](https://www.anthropic.com/news) — only new Anthropic item, not dev-relevant** (§1, §2)
