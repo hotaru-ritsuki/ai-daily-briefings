@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-10-31](briefings/2026-10-31.md)**
+  - **⚡ [Claude Code 2.1.316](https://github.com/anthropics/claude-code/releases): `CLAUDE_CODE_SUBAGENT_EFFORT` for subagent effort** (§1, §3, §8)
+  - **⚡ Opus 4.8 fast mode deprecated, removal Nov 30 (single-sourced); migrate to Opus 5.5** (§1, §2, §3)
+  - **No new Codex release since 0.166.0 stable; no new Anthropic model** (§1, §3)
+
 - **[2026-10-30](briefings/2026-10-30.md)**
   - **⚡ [Claude Code 2.1.314](https://github.com/anthropics/claude-code/releases): `blockWritesOutsideWorkingDirectories`, PreCompact output cap** (§1, §3, §8)
   - **⚡ [Codex 0.166.0](https://github.com/openai/codex/releases) stable: GPT-6.1 Terra in catalog, permissions persist across resume/fork** (§1, §3)
