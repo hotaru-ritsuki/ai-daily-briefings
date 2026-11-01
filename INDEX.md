@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-01](briefings/2026-11-01.md)**
+  - **No new [Claude Code](https://code.claude.com/docs/en/changelog) (2.1.316 still newest) or [Codex](https://github.com/openai/codex/releases) (0.166.0 still newest) release** (§1, §3)
+  - **⚡ [Orkas](https://github.com/Orkas-AI/Orkas): commander agent orchestrating Claude Code + Codex** (§1, §4, §5, §8)
+  - **[Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios): 49-agent/72-skill `.claude/` layout as a scaling reference** (§1, §4, §5)
+
 - **[2026-10-31](briefings/2026-10-31.md)**
   - **⚡ [Claude Code 2.1.316](https://github.com/anthropics/claude-code/releases): `CLAUDE_CODE_SUBAGENT_EFFORT` for subagent effort** (§1, §3, §8)
   - **⚡ Opus 4.8 fast mode deprecated, removal Nov 30 (single-sourced); migrate to Opus 5.5** (§1, §2, §3)
