@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-02](briefings/2026-11-02.md)**
+  - **No new stable [Claude Code](https://github.com/anthropics/claude-code/releases) (2.1.316) or [Codex](https://github.com/openai/codex/releases) (0.166.0; only 0.167 alphas)** (§1, §3)
+  - **⚡ Opus 4.8 fast mode removal Nov 30 — migrate to Opus 5.5; try `CLAUDE_CODE_SUBAGENT_EFFORT`** (§1, §3, §8)
+  - **[AiSOC](https://github.com/beenuar/AiSOC) / [CopilotKit OpenBot](https://github.com/CopilotKit/OpenBot): agent products packaged via MCP / AG-UI** (§1, §4, §5)
+
 - **[2026-11-01](briefings/2026-11-01.md)**
   - **No new [Claude Code](https://code.claude.com/docs/en/changelog) (2.1.316 still newest) or [Codex](https://github.com/openai/codex/releases) (0.166.0 still newest) release** (§1, §3)
   - **⚡ [Orkas](https://github.com/Orkas-AI/Orkas): commander agent orchestrating Claude Code + Codex** (§1, §4, §5, §8)
