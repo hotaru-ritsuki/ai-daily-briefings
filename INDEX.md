@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-03](briefings/2026-11-03.md)**
+  - **⚡ [Claude Code 2.1.317](https://github.com/anthropics/claude-code/releases): Read stub removed, email-send prompts, `/schedule` connector warning** (§1, §3)
+  - **⚡ [agent-desktop](https://github.com/vercel-labs/agent-desktop): accessibility-tree computer use for agents, #1 on trending** (§1, §4, §5)
+  - **⚡ [worktrunk](https://github.com/max-sixty/worktrunk): git worktrees for parallel Claude Code agents** (§1, §4, §8)
+
 - **[2026-11-02](briefings/2026-11-02.md)**
   - **No new stable [Claude Code](https://github.com/anthropics/claude-code/releases) (2.1.316) or [Codex](https://github.com/openai/codex/releases) (0.166.0; only 0.167 alphas)** (§1, §3)
   - **⚡ Opus 4.8 fast mode removal Nov 30 — migrate to Opus 5.5; try `CLAUDE_CODE_SUBAGENT_EFFORT`** (§1, §3, §8)
