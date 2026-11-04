@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-04](briefings/2026-11-04.md)**
+  - **⚡ [Claude Code 2.1.318](https://github.com/anthropics/claude-code/releases/tag/v2.1.318): `deniedMcpServers` covers connectors, no IDE-extension auto-install, `--continue` fix** (§1, §3)
+  - **No new stable [Codex](https://github.com/openai/codex/releases) (0.166.0; only 0.168.0-alpha.1)** (§1, §3)
+  - **[floci](https://github.com/floci-io/floci): local AWS emulator with Java Testcontainers; [Spotify portal-ai-plugins](https://github.com/spotify/portal-ai-plugins) as a cross-agent plugin layout** (§1, §4, §5)
+
 - **[2026-11-03](briefings/2026-11-03.md)**
   - **⚡ [Claude Code 2.1.317](https://github.com/anthropics/claude-code/releases): Read stub removed, email-send prompts, `/schedule` connector warning** (§1, §3)
   - **⚡ [agent-desktop](https://github.com/vercel-labs/agent-desktop): accessibility-tree computer use for agents, #1 on trending** (§1, §4, §5)
