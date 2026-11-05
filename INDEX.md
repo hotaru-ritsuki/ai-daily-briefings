@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-05](briefings/2026-11-05.md)**
+  - **No new stable [Claude Code](https://github.com/anthropics/claude-code/releases) (2.1.318) or [Codex](https://github.com/openai/codex/releases) (0.166.0; 0.168.0-alpha.3)** (§1, §3)
+  - **⚡ [Spec Kit 1.3.0](https://github.com/github/spec-kit/releases) removes `/speckit.taskstoissues` (breaking)** (§1, §3, §5)
+  - **[NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology): certified semantic layer + read-only, user-scoped MCP for NL-to-SQL** (§1, §4, §5)
+
 - **[2026-11-04](briefings/2026-11-04.md)**
   - **⚡ [Claude Code 2.1.318](https://github.com/anthropics/claude-code/releases/tag/v2.1.318): `deniedMcpServers` covers connectors, no IDE-extension auto-install, `--continue` fix** (§1, §3)
   - **No new stable [Codex](https://github.com/openai/codex/releases) (0.166.0; only 0.168.0-alpha.1)** (§1, §3)
