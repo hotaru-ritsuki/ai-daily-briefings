@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-06](briefings/2026-11-06.md)**
+  - **⚡ [Codex 0.167.0](https://github.com/openai/codex/releases/tag/rust-v0.167.0): `codex agents` command center, inline patch review, Vertex AI; no new Claude Code (2.1.318)** (§1, §3, §8)
+  - **⚡ [google/skills](https://github.com/google/skills): official Google skills + MCP plugin marketplace for Claude Code** (§1, §4, §5)
+  - **[gstack](https://github.com/garrytan/gstack) grows to ~40 role-based slash commands (`/test-audit`, `/modernize`, `/freeze`)** (§1, §4, §5)
+
 - **[2026-11-05](briefings/2026-11-05.md)**
   - **No new stable [Claude Code](https://github.com/anthropics/claude-code/releases) (2.1.318) or [Codex](https://github.com/openai/codex/releases) (0.166.0; 0.168.0-alpha.3)** (§1, §3)
   - **⚡ [Spec Kit 1.3.0](https://github.com/github/spec-kit/releases) removes `/speckit.taskstoissues` (breaking)** (§1, §3, §5)
