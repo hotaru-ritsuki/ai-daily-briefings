@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-07](briefings/2026-11-07.md)**
+  - **⚡ [Claude Code 2.1.319](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): MCP tasks backgrounded in terminal, `permissions.denyInsteadOfPrompting`, finished subagents in `/tasks`** (§1, §3, §8)
+  - **⚡ 2.1.319 behaviour changes + security fixes: `claude -p` exits 1 on auto-mode refusals, `/loop` stops without reschedule, worktree sandbox escape fixed** (§1, §3)
+  - **Anthropic Engineering: ["The components of agent memory"](https://www.anthropic.com/research/components-of-agent-memory) — keep always-loaded context a small index** (§1, §6a, §9)
+
 - **[2026-11-06](briefings/2026-11-06.md)**
   - **⚡ [Codex 0.167.0](https://github.com/openai/codex/releases/tag/rust-v0.167.0): `codex agents` command center, inline patch review, Vertex AI; no new Claude Code (2.1.318)** (§1, §3, §8)
   - **⚡ [google/skills](https://github.com/google/skills): official Google skills + MCP plugin marketplace for Claude Code** (§1, §4, §5)
