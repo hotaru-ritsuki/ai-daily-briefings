@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-08](briefings/2026-11-08.md)**
+  - **No new stable [Claude Code](https://code.claude.com/docs/en/changelog) (2.1.319) or [Codex](https://github.com/openai/codex/releases) (0.167.0; 0.169.0-alpha.3 only)** (§1, §3)
+  - **[Meta buys Conductor](https://siliconangle.com/2026/11/04/meta-acquires-ai-coding-startup-conductor-whose-app-runs-several-coding-agents-at-once/) (cloud shuts Nov 20); OpenAI to buy Pierre (Codex diff/review libs)** (§1, §4, §9)
+  - **⚡ [billion-context](https://github.com/ranxianglei/billion-context): self-compressing context plugin for Claude Code — A/B it on a long refactor** (§1, §5, §8)
+
 - **[2026-11-07](briefings/2026-11-07.md)**
   - **⚡ [Claude Code 2.1.319](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): MCP tasks backgrounded in terminal, `permissions.denyInsteadOfPrompting`, finished subagents in `/tasks`** (§1, §3, §8)
   - **⚡ 2.1.319 behaviour changes + security fixes: `claude -p` exits 1 on auto-mode refusals, `/loop` stops without reschedule, worktree sandbox escape fixed** (§1, §3)
