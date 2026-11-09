@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-09](briefings/2026-11-09.md)**
+  - **⚡ [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer): tool-pruning + loop-guard plugin for Claude Code/Codex, self-reported 18–31% cost cut** (§1, §5, §8)
+  - **⚡ [MCP reference servers v2.3.0](https://github.com/modelcontextprotocol/servers/releases): filesystem `--read-only`/`--confine-roots`, fetch `--allowed-hosts`** (§1, §4)
+  - **No new stable [Claude Code](https://code.claude.com/docs/en/changelog) (2.1.319) or [Codex](https://github.com/openai/codex/releases) (0.167.0); Office skills relicensed Apache-2.0** (§1, §2, §3)
+
 - **[2026-11-08](briefings/2026-11-08.md)**
   - **No new stable [Claude Code](https://code.claude.com/docs/en/changelog) (2.1.319) or [Codex](https://github.com/openai/codex/releases) (0.167.0; 0.169.0-alpha.3 only)** (§1, §3)
   - **[Meta buys Conductor](https://siliconangle.com/2026/11/04/meta-acquires-ai-coding-startup-conductor-whose-app-runs-several-coding-agents-at-once/) (cloud shuts Nov 20); OpenAI to buy Pierre (Codex diff/review libs)** (§1, §4, §9)
