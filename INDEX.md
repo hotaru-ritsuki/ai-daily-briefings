@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-10](briefings/2026-11-10.md)**
+  - **⚡ [Claude Fable 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2) GA: $8/$40, 1M ctx, ~30% faster; vendor claims it beats Opus 5.5 on most evals** (§1, §2, §8)
+  - **⚡ [Claude Code 2.1.321](https://code.claude.com/docs/en/changelog): Fable 5.2 default, MCP OAuth token-leak + sandbox fixes, mods skip prompts** (§1, §3)
+  - **⚡ ["Prompting Claude Fable 5.2"](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2): delegation cost, effort over "think less", code-ownership line** (§1, §6a, §9)
+
 - **[2026-11-09](briefings/2026-11-09.md)**
   - **⚡ [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer): tool-pruning + loop-guard plugin for Claude Code/Codex, self-reported 18–31% cost cut** (§1, §5, §8)
   - **⚡ [MCP reference servers v2.3.0](https://github.com/modelcontextprotocol/servers/releases): filesystem `--read-only`/`--confine-roots`, fetch `--allowed-hosts`** (§1, §4)
