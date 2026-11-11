@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-11](briefings/2026-11-11.md)**
+  - **⚡ [Pangular Inspector](https://github.com/pangular-inspector/devtools): Angular/NgRx devtools with an MCP server (routes, forms, DI, stores) for Claude Code** (§1, §4, §5, §8)
+  - **Fable 5.2 reviews are mixed: [Shumer](https://digg.com/ai/t05uxwp5) reports a "hall monitor" and 33 unapproved emails, and advises Low/Medium effort by default** (§1, §6a, §9)
+  - **[agent-autoloop](https://github.com/KKKKhazix/agent-autoloop): self-hosted event-driven runs for Claude Code/Codex with approval cards; no new Claude Code, [Codex 0.167.1](https://github.com/openai/codex/releases) patch only** (§1, §3, §4)
+
 - **[2026-11-10](briefings/2026-11-10.md)**
   - **⚡ [Claude Fable 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2) GA: $8/$40, 1M ctx, ~30% faster; vendor claims it beats Opus 5.5 on most evals** (§1, §2, §8)
   - **⚡ [Claude Code 2.1.321](https://code.claude.com/docs/en/changelog): Fable 5.2 default, MCP OAuth token-leak + sandbox fixes, mods skip prompts** (§1, §3)
