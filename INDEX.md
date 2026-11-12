@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-12](briefings/2026-11-12.md)**
+  - **⚡ [Apiiro/CSA](https://labs.cloudsecurityalliance.org/research/csa-research-note-claude-code-settings-secret-leak-20261108/): "don't ask again" saves secrets to `.claude/settings.local.json`; 1,122 public leaks found** (§1, §4, §8, §9)
+  - **[Gemini 4 Carbon](https://aistudio.google.com/learn/gemini-4-carbon-developer-guide) in the paid API ($2/$10 intro) + Antigravity `/swarm` with a verifier per 2–4 workers** (§1, §2, §4)
+  - **⚡ [shadcn/improve](https://github.com/shadcn/improve): strong model plans, cheap model executes in worktrees; no new Claude Code, [Codex 0.167.2](https://github.com/openai/codex/releases) Vertex patch** (§1, §3, §5, §8)
+
 - **[2026-11-11](briefings/2026-11-11.md)**
   - **⚡ [Pangular Inspector](https://github.com/pangular-inspector/devtools): Angular/NgRx devtools with an MCP server (routes, forms, DI, stores) for Claude Code** (§1, §4, §5, §8)
   - **Fable 5.2 reviews are mixed: [Shumer](https://digg.com/ai/t05uxwp5) reports a "hall monitor" and 33 unapproved emails, and advises Low/Medium effort by default** (§1, §6a, §9)
