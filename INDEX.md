@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-13](briefings/2026-11-13.md)**
+  - **⚡ [Claude Code 2.1.323](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): "don't ask again" stops saving secrets; many permission/sandbox holes closed** (§1, §3, §8)
+  - **Experimental Code Mode (Claude scripts its tools in JS); [community A/B data](https://github.com/darjss/claude-code-codemode) says it costs more on ordinary coding tasks** (§1, §3, §4, §9)
+  - **[Codex 0.168.0](https://github.com/openai/codex/releases): provider picker, side-conversation pane, `agents.enabled` replaces `features.multi_agent`** (§1, §3)
+
 - **[2026-11-12](briefings/2026-11-12.md)**
   - **⚡ [Apiiro/CSA](https://labs.cloudsecurityalliance.org/research/csa-research-note-claude-code-settings-secret-leak-20261108/): "don't ask again" saves secrets to `.claude/settings.local.json`; 1,122 public leaks found** (§1, §4, §8, §9)
   - **[Gemini 4 Carbon](https://aistudio.google.com/learn/gemini-4-carbon-developer-guide) in the paid API ($2/$10 intro) + Antigravity `/swarm` with a verifier per 2–4 workers** (§1, §2, §4)
