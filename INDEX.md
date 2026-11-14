@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-14](briefings/2026-11-14.md)**
+  - **⚡ [Claude Code 2.1.325](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): sandbox auto-allow off by default; scheduled tasks/`/loop` ask before skills with `allowed-tools`** (§1, §3, §8)
+  - **⚡ [Google EGM](https://github.com/google/elephant-goldfish-model): full-context agent drafts the spec, zero-context subagents review it; installs in Claude Code and Codex** (§1, §4, §5, §8, §9)
+  - **Anthropic ["Building always-on agents"](https://claude.com/resources/articles/building-always-on-agents) + [self-hosted Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents) private beta; [Codex 0.169.0](https://github.com/openai/codex/releases) `exec` needs `--trust`** (§1, §2, §3, §6a)
+
 - **[2026-11-13](briefings/2026-11-13.md)**
   - **⚡ [Claude Code 2.1.323](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): "don't ask again" stops saving secrets; many permission/sandbox holes closed** (§1, §3, §8)
   - **Experimental Code Mode (Claude scripts its tools in JS); [community A/B data](https://github.com/darjss/claude-code-codemode) says it costs more on ordinary coding tasks** (§1, §3, §4, §9)
