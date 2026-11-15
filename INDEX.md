@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-15](briefings/2026-11-15.md)**
+  - **⚡ [MCP reference servers v2.4.0](https://github.com/modelcontextprotocol/servers/releases): six fixes in the filesystem/git/fetch servers (a repo's git config could make the server run programs); pin the versions explicitly** (§1, §4, §5, §8)
+  - **[Hill, ESEM 2026](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.84): 88k matched PRs; spec artifacts don't reduce defects; 84% of AI PR reviews are by the same vendor** (§1, §6a, §9)
+  - **⚡ [Tencent/LoopForge](https://github.com/Tencent/LoopForge): SOP pipelines with human gates for Claude Code/Codex; no new Claude Code (2.1.325) or Codex stable (0.169.0)** (§1, §3, §4, §5, §8)
+
 - **[2026-11-14](briefings/2026-11-14.md)**
   - **⚡ [Claude Code 2.1.325](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): sandbox auto-allow off by default; scheduled tasks/`/loop` ask before skills with `allowed-tools`** (§1, §3, §8)
   - **⚡ [Google EGM](https://github.com/google/elephant-goldfish-model): full-context agent drafts the spec, zero-context subagents review it; installs in Claude Code and Codex** (§1, §4, §5, §8, §9)
