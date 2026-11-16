@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-16](briefings/2026-11-16.md)**
+  - **Correction: [Gemini 4 Hydrogen](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/) shipped Nov 12, plus Antigravity Orchestrator (Carbon plans read-only, Hydrogen executes, escalates back)** (§1, §2, §4)
+  - **⚡ [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator): offline Tier 1 scoring and deduplication of your `.claude/skills/`; no new Claude Code (2.1.325) or Codex stable (0.169.0)** (§1, §3, §5, §8)
+  - **[MaxxBench](https://maxxbench.unlap.ai/research/why-maxxbench/): tweaked DeepSWE tasks spread tied models 23 points apart; plus post-merge study: unreviewed agent code needs more fixing** (§1, §6a, §6b, §9)
+
 - **[2026-11-15](briefings/2026-11-15.md)**
   - **⚡ [MCP reference servers v2.4.0](https://github.com/modelcontextprotocol/servers/releases): six fixes in the filesystem/git/fetch servers (a repo's git config could make the server run programs); pin the versions explicitly** (§1, §4, §5, §8)
   - **[Hill, ESEM 2026](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.84): 88k matched PRs; spec artifacts don't reduce defects; 84% of AI PR reviews are by the same vendor** (§1, §6a, §9)
