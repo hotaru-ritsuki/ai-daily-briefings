@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-17](briefings/2026-11-17.md)**
+  - **⚡ [Claude Code 2.1.326](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): tighter Bash/Code Mode permissions, warnings for incomplete `--allowedTools` rules, readable hook failures, MCP `anyOf` fix; no Codex stable (0.169.0)** (§1, §3, §8)
+  - **[JPMorganChase widens Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code): containers, model approval, a CI gate Claude can't approve itself** (§1, §6a, §7, §9)
+  - **Claude Code Projects coordinator now posts thread status on its own, plus `/btw`, `/fork` and reminders (secondary sources); [plan → review → diff-audit prompts](https://github.com/vaibhav-space/my-ai-coding-workflow) to try** (§1, §4, §5, §8)
+
 - **[2026-11-16](briefings/2026-11-16.md)**
   - **Correction: [Gemini 4 Hydrogen](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/) shipped Nov 12, plus Antigravity Orchestrator (Carbon plans read-only, Hydrogen executes, escalates back)** (§1, §2, §4)
   - **⚡ [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator): offline Tier 1 scoring and deduplication of your `.claude/skills/`; no new Claude Code (2.1.325) or Codex stable (0.169.0)** (§1, §3, §5, §8)
