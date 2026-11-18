@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-18](briefings/2026-11-18.md)**
+  - **⚡ [Claude Code 2.1.327](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): shell rc may run before first Bash approval (opt-out env var), `mcp add-json -` from stdin, `/status` config health check; [Codex 0.170.0](https://github.com/openai/codex/releases) stops child threads dropping sandbox rules** (§1, §3)
+  - **⚡ [Prime Radiant external sandboxes](https://github.com/prime-radiant-inc/external-sandbox): Claude Code's Bash in a no-network local VM via `CLAUDE_CODE_SHELL_PREFIX`; also Codex and Pi** (§1, §4, §5, §8)
+  - **[GPT-6.2 Astra/Sol](https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/): Astra cut 20% to $8/$40, the same as Fable 5.2; benchmarks still vendor-only** (§1, §2, §9)
+
 - **[2026-11-17](briefings/2026-11-17.md)**
   - **⚡ [Claude Code 2.1.326](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): tighter Bash/Code Mode permissions, warnings for incomplete `--allowedTools` rules, readable hook failures, MCP `anyOf` fix; no Codex stable (0.169.0)** (§1, §3, §8)
   - **[JPMorganChase widens Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code): containers, model approval, a CI gate Claude can't approve itself** (§1, §6a, §7, §9)
