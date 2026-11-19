@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-19](briefings/2026-11-19.md)**
+  - **⚡ [Claude Code 2.1.328](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): `/code-review` is now bugs-only with severity tags, cleanups move to `/simplify`, `mcp_tool` hooks can fail closed, Code Mode drops UserPromptSubmit on script output; no new Codex stable (0.170.0)** (§1, §3, §8)
+  - **⚡ [Lauren Tan, "Code is memory"](https://github.com/The-Focus-AI/ai-engineer-code-2026-nov/blob/main/talks/2026-11-11-all-code-is-slop-except-mine/story.md): every correction becomes a deterministic check; [pstack](https://github.com/cursor/plugins/tree/main/pstack) installs in Claude Code** (§1, §4, §5, §6a, §8, §9)
+  - **[Anthropic prices its IPO at $83](https://www.anthropic.com/news/anthropic-prices-initial-public-offering), above range and upsized to 980M shares; trades as ANT from Nov 19** (§1, §2)
+
 - **[2026-11-18](briefings/2026-11-18.md)**
   - **⚡ [Claude Code 2.1.327](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): shell rc may run before first Bash approval (opt-out env var), `mcp add-json -` from stdin, `/status` config health check; [Codex 0.170.0](https://github.com/openai/codex/releases) stops child threads dropping sandbox rules** (§1, §3)
   - **⚡ [Prime Radiant external sandboxes](https://github.com/prime-radiant-inc/external-sandbox): Claude Code's Bash in a no-network local VM via `CLAUDE_CODE_SHELL_PREFIX`; also Codex and Pi** (§1, §4, §5, §8)
