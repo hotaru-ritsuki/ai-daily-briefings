@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-20](briefings/2026-11-20.md)**
+  - **⚡ [Claude Code 2.1.329](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): `/code-review` reviews the whole branch or the real PR diff, trust dialog shows where hooks live, `/tasks` lists scheduled tasks; Code Mode hooks that error no longer block** (§1, §3)
+  - **⚡ [Codex 0.171.0](https://github.com/openai/codex/releases): GPT-6.2 Sol becomes the default, TUI workspace on by default, `codex exec --remote`** (§1, §3)
+  - **⚡ [How the Claude Code team thinks about verification](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/): per-repo `verify` skill, three rounds then a human, review rules from the base branch; plus the chaos-loop launch write-up** (§1, §6a, §8, §9)
+
 - **[2026-11-19](briefings/2026-11-19.md)**
   - **⚡ [Claude Code 2.1.328](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): `/code-review` is now bugs-only with severity tags, cleanups move to `/simplify`, `mcp_tool` hooks can fail closed, Code Mode drops UserPromptSubmit on script output; no new Codex stable (0.170.0)** (§1, §3, §8)
   - **⚡ [Lauren Tan, "Code is memory"](https://github.com/The-Focus-AI/ai-engineer-code-2026-nov/blob/main/talks/2026-11-11-all-code-is-slop-except-mine/story.md): every correction becomes a deterministic check; [pstack](https://github.com/cursor/plugins/tree/main/pstack) installs in Claude Code** (§1, §4, §5, §6a, §8, §9)
