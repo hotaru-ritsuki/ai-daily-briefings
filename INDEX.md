@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-21](briefings/2026-11-21.md)**
+  - **⚡ [Claude Code 2.1.330](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): `/loop` and scheduled tasks run up to 30 days, more `rm` needs approval, fixes for worktree deletion and subagent MCP shutdown; no new Codex stable (0.171.0)** (§1, §3)
+  - **[Gemini 4 Neon](https://9to5google.com/2026/11/18/gemini-4-neon-announcement/): new mid-tier model at $3/$15; Google's own data shows 12.8% vs 39.0% depending on the harness** (§1, §2, §9)
+  - **⚡ [cospan](https://github.com/keli-wen/cospan): Claude Code hands work to Codex as async background sessions; plus an A/B test of your own skills scored by angular-doctor** (§1, §4, §5, §8)
+
 - **[2026-11-20](briefings/2026-11-20.md)**
   - **⚡ [Claude Code 2.1.329](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): `/code-review` reviews the whole branch or the real PR diff, trust dialog shows where hooks live, `/tasks` lists scheduled tasks; Code Mode hooks that error no longer block** (§1, §3)
   - **⚡ [Codex 0.171.0](https://github.com/openai/codex/releases): GPT-6.2 Sol becomes the default, TUI workspace on by default, `codex exec --remote`** (§1, §3)
