@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-22](briefings/2026-11-22.md)**
+  - **[skill-distill](https://github.com/sybil-solutions/skill-distill): a Claude Code/Codex session becomes a skill a cheaper model can follow, kept only after three matching trials; no new Claude Code (2.1.330) or Codex stable (0.171.0)** (§1, §3, §4, §5, §9)
+  - **⚡ Correction: official [angular/skills](https://github.com/angular/skills) exists (`angular-developer`, `angular-new-app`); [Angular CLI 22.3.0](https://github.com/angular/angular-cli/releases/tag/v22.3.0) deprecates ng-packagr for `@angular/build:library`** (§1, §4, §5)
+  - **⚡ [ui-diff](https://github.com/imuratalpay/ui-diff): deterministic Playwright before/after screenshots as a sticky PR comment; ZoomInfo's agent migration found Angular DI and RxJS the hardest parts to map** (§1, §5, §6a, §8)
+
 - **[2026-11-21](briefings/2026-11-21.md)**
   - **⚡ [Claude Code 2.1.330](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): `/loop` and scheduled tasks run up to 30 days, more `rm` needs approval, fixes for worktree deletion and subagent MCP shutdown; no new Codex stable (0.171.0)** (§1, §3)
   - **[Gemini 4 Neon](https://9to5google.com/2026/11/18/gemini-4-neon-announcement/): new mid-tier model at $3/$15; Google's own data shows 12.8% vs 39.0% depending on the harness** (§1, §2, §9)
