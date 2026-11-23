@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-23](briefings/2026-11-23.md)**
+  - **⚡ [GitHub MCP Server v2.2.0](https://github.com/github/github-mcp-server/releases): 19 bundled workflow skills behind `--features=skills`, with `USE FOR:`/`NOT FOR:` descriptions; no new Claude Code (2.1.330) or Codex stable (0.171.0)** (§1, §3, §4, §5)
+  - **⚡ [autologin-mcp](https://github.com/olgaysezgin/autologin-mcp): agent logs in to the app under test via Playwright MCP, and the password never reaches the model** (§1, §4, §5, §8, §9)
+  - **[Spring AI 2.1.0](https://github.com/spring-projects/spring-ai/releases) GA: async MCP client/server, `conversation_search` session recall; plus groundhog and trust-pyramid hook patterns** (§1, §4, §5)
+
 - **[2026-11-22](briefings/2026-11-22.md)**
   - **[skill-distill](https://github.com/sybil-solutions/skill-distill): a Claude Code/Codex session becomes a skill a cheaper model can follow, kept only after three matching trials; no new Claude Code (2.1.330) or Codex stable (0.171.0)** (§1, §3, §4, §5, §9)
   - **⚡ Correction: official [angular/skills](https://github.com/angular/skills) exists (`angular-developer`, `angular-new-app`); [Angular CLI 22.3.0](https://github.com/angular/angular-cli/releases/tag/v22.3.0) deprecates ng-packagr for `@angular/build:library`** (§1, §4, §5)
