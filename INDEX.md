@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-24](briefings/2026-11-24.md)**
+  - **⚡ [Claude Code 2.1.331](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): fixes 30-minute MCP hangs and leftover Workflow processes, adds plugin `optionalDependencies`; managed marketplaces auto-update from Nov 30** (§1, §3, §8)
+  - **⚡ [Codex 0.172.0](https://github.com/openai/codex/releases): stdio MCP servers start lazily on first call, `exec resume` keeps sandbox permissions, Tab-completes slash-command args** (§1, §3)
+  - **⚡ [safe-anything](https://github.com/erkamyaman/safe-anything): scans `.mcp.json`, `.claude/` hooks and skills for unpinned servers, plaintext tokens and `bypassPermissions`; plus agent-postmortem and joggernaut** (§1, §4, §5, §8, §9)
+
 - **[2026-11-23](briefings/2026-11-23.md)**
   - **⚡ [GitHub MCP Server v2.2.0](https://github.com/github/github-mcp-server/releases): 19 bundled workflow skills behind `--features=skills`, with `USE FOR:`/`NOT FOR:` descriptions; no new Claude Code (2.1.330) or Codex stable (0.171.0)** (§1, §3, §4, §5)
   - **⚡ [autologin-mcp](https://github.com/olgaysezgin/autologin-mcp): agent logs in to the app under test via Playwright MCP, and the password never reaches the model** (§1, §4, §5, §8, §9)
