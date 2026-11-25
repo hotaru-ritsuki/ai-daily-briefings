@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-25](briefings/2026-11-25.md)**
+  - **⚡ [Skills over MCP](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more) public beta in Claude and Claude Code; MCP Tasks and Elicitation GA; Java SDK and Spring AI support not there yet** (§1, §2, §4, §8, §9)
+  - **⚡ [Claude Code 2.1.332](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): `server:skill` commands, `PreSkillShellCommand` hook, `sonnet` alias moves to 5.5 on Vertex and Foundry, about 90 fixes incl. SSE MCP hangs; no new Codex stable (0.172.0)** (§1, §3)
+  - **[shrink-anything](https://github.com/EL4CTEO/shrink-anything): deletes dead code and puts back any cut that fails your tests; plus Lodestar per-session skill sets and the swarmy agent dashboard** (§1, §4, §5)
+
 - **[2026-11-24](briefings/2026-11-24.md)**
   - **⚡ [Claude Code 2.1.331](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): fixes 30-minute MCP hangs and leftover Workflow processes, adds plugin `optionalDependencies`; managed marketplaces auto-update from Nov 30** (§1, §3, §8)
   - **⚡ [Codex 0.172.0](https://github.com/openai/codex/releases): stdio MCP servers start lazily on first call, `exec resume` keeps sandbox permissions, Tab-completes slash-command args** (§1, §3)
