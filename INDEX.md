@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-26](briefings/2026-11-26.md)**
+  - **⚡ [Claude Ship](https://code.claude.com/docs/en/claude-ship): Code Review GA, PR Steward and `.claude/approvals.yml` Approvals in beta; local `/ship` watches fix PRs with your `gh` credentials and bypass git hooks; no new Claude Code (2.1.332) or Codex stable (0.172.0)** (§1, §3, §4, §6a, §8)
+  - **⚡ [Sonnet 4.5 retires on the Claude API Nov 30](https://platform.claude.com/docs/en/about-claude/model-deprecations); Opus 4.5 deprecated, retiring Jan 22, 2027** (§1, §2)
+  - **[Anthropic's Messages API Rust migration](https://www.anthropic.com/research/migrating-api-to-rust): 80%+ Claude-written, verified by shadowed production traffic; plus Journeys First and Explore-Compile-Replay for agent-to-deterministic tests** (§1, §5, §6a, §9)
+
 - **[2026-11-25](briefings/2026-11-25.md)**
   - **⚡ [Skills over MCP](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more) public beta in Claude and Claude Code; MCP Tasks and Elicitation GA; Java SDK and Spring AI support not there yet** (§1, §2, §4, §8, §9)
   - **⚡ [Claude Code 2.1.332](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md): `server:skill` commands, `PreSkillShellCommand` hook, `sonnet` alias moves to 5.5 on Vertex and Foundry, about 90 fixes incl. SSE MCP hangs; no new Codex stable (0.172.0)** (§1, §3)
