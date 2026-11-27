@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-27](briefings/2026-11-27.md)**
+  - **⚡ [MCP Companion](https://github.com/SinLordEp/mcp-companion): IntelliJ refactorings with preview/apply, Spring beans, test runs and hot swap added to JetBrains' bundled MCP server; no new Claude Code (2.1.332) or Codex stable (0.172.0)** (§1, §3, §4, §5, §8)
+  - **[Microsoft over-edit preprint](https://arxiv.org/abs/2611.34875v1): ~11% of agent patch code units aren't needed and 89% of those change behaviour; most extra lines are tests** (§1, §6a, §9)
+  - **⚡ [Quartet QE](https://github.com/Callahan-ci/quartet-qe): Java 21 end-to-end tests from user stories across API, Kafka, DB and Playwright, replayed with no AI; plus Lonca and Forgeline merge-policy harnesses** (§1, §4, §5, §6a)
+
 - **[2026-11-26](briefings/2026-11-26.md)**
   - **⚡ [Claude Ship](https://code.claude.com/docs/en/claude-ship): Code Review GA, PR Steward and `.claude/approvals.yml` Approvals in beta; local `/ship` watches fix PRs with your `gh` credentials and bypass git hooks; no new Claude Code (2.1.332) or Codex stable (0.172.0)** (§1, §3, §4, §6a, §8)
   - **⚡ [Sonnet 4.5 retires on the Claude API Nov 30](https://platform.claude.com/docs/en/about-claude/model-deprecations); Opus 4.5 deprecated, retiring Jan 22, 2027** (§1, §2)
