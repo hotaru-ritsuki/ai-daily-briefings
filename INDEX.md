@@ -4,6 +4,11 @@ Reverse-chronological index of daily AI engineering briefings.
 
 ## 2026
 
+- **[2026-11-28](briefings/2026-11-28.md)**
+  - **⚡ [Angular Anything](https://github.com/erkamyaman/angular-anything): records a React/Vue/AngularJS app and fails the agent's Angular port on any behaviour difference; no new Claude Code (2.1.332) or Codex stable (0.172.0)** (§1, §3, §5, §6a)
+  - **[actions-speedup](https://github.com/yuwen-cool/actions-speedup) blind evals: the CI skill loses to a plain 10-point prompt, 25 to 23.5 of 44 across 13 repos** (§1, §6a, §8, §9)
+  - **⚡ [mcp-sentinel](https://github.com/Jokudneh/mcp-sentinel): stdio firewall and JSONL flight recorder for any MCP server; plus orchestrate-skills, ngx-mcp-apps and a Spring MCP settlement guard** (§1, §4, §5, §7)
+
 - **[2026-11-27](briefings/2026-11-27.md)**
   - **⚡ [MCP Companion](https://github.com/SinLordEp/mcp-companion): IntelliJ refactorings with preview/apply, Spring beans, test runs and hot swap added to JetBrains' bundled MCP server; no new Claude Code (2.1.332) or Codex stable (0.172.0)** (§1, §3, §4, §5, §8)
   - **[Microsoft over-edit preprint](https://arxiv.org/abs/2611.34875v1): ~11% of agent patch code units aren't needed and 89% of those change behaviour; most extra lines are tests** (§1, §6a, §9)
